@@ -795,34 +795,6 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 60.325 28.575 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 3b889d32-056c-4ac8-a630-e6d807411b4b)
-    (property "Reference" "#PWR0126" (at 60.325 22.225 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 60.325 25.4 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 60.325 28.575 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 60.325 28.575 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 1b5e4f9b-b244-44b6-b987-142ad370eb56))
-    (instances
-      (project "PEST_Driver"
-        (path "/1312aa0a-e5d3-4b8d-ac4b-b6abdfb7d180/14e19459-9bf9-4345-8cad-a4f2aa65a7bc"
-          (reference "#PWR0126") (unit 1)
-        )
-        (path "/1312aa0a-e5d3-4b8d-ac4b-b6abdfb7d180"
-          (reference "#PWR0138") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:C_Small") (at 62.865 28.575 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4224bae3-c644-4c77-8b0c-ef1fef85a06e)
@@ -861,7 +833,7 @@
     (property "Value" "Conn_01x10" (at 44.45 31.75 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 41.275 28.575 0)
+    (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical" (at 41.275 28.575 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 41.275 28.575 0)
@@ -907,6 +879,31 @@
       (project "PEST_Driver"
         (path "/1312aa0a-e5d3-4b8d-ac4b-b6abdfb7d180"
           (reference "R99") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GNDS") (at 60.325 28.575 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 6c53aa7f-826d-4eb3-b84e-661ebb69c67f)
+    (property "Reference" "#PWR078" (at 60.325 22.225 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GNDS" (at 60.325 25.4 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 60.325 28.575 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 60.325 28.575 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid ad133bc0-b94b-47c1-967b-03142f2a7d9b))
+    (instances
+      (project "PEST_Driver"
+        (path "/1312aa0a-e5d3-4b8d-ac4b-b6abdfb7d180"
+          (reference "#PWR078") (unit 1)
         )
       )
     )
