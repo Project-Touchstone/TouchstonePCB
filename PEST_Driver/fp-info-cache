@@ -1,4 +1,4 @@
-21586462261857632
+21591645069897411
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -82914,6 +82914,13 @@ rotary encoder
 0
 7
 6
+SamacSys_Parts
+NE555DR
+D (R-PDSO-G8)
+Integrated Circuit
+0
+8
+8
 Sensor
 Aosong_DHT11_5.5x12.0_P2.54mm
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/DHT11.pdf
@@ -88633,6 +88640,20 @@ test point THT pad
 0
 1
 1
+Touchstone
+Bridge_Pad
+
+
+0
+1
+1
+Touchstone
+logo
+
+
+0
+0
+0
 Transformer_SMD
 Pulse_P0926NL
 SMT Gate Drive Transformer, 1:1:1, 8.0x6.3x5.3mm (https://productfinder.pulseeng.com/products/datasheets/SPM2007_61.pdf)
