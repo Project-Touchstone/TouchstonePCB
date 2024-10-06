@@ -297,6 +297,89 @@
         )
       )
     )
+    (symbol "Device:LED" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "D" (at 0 2.54 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "LED" (at 0 -2.54 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "LED diode" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Light emitting diode" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "LED_0_1"
+        (polyline
+          (pts
+            (xy -1.27 -1.27)
+            (xy -1.27 1.27)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.27 0)
+            (xy 1.27 0)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.27 -1.27)
+            (xy 1.27 1.27)
+            (xy -1.27 0)
+            (xy 1.27 -1.27)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -3.048 -0.762)
+            (xy -4.572 -2.286)
+            (xy -3.81 -2.286)
+            (xy -4.572 -2.286)
+            (xy -4.572 -1.524)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.778 -0.762)
+            (xy -3.302 -2.286)
+            (xy -2.54 -2.286)
+            (xy -3.302 -2.286)
+            (xy -3.302 -1.524)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "LED_1_1"
+        (pin passive line (at -3.81 0 0) (length 2.54)
+          (name "K" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 3.81 0 180) (length 2.54)
+          (name "A" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "Device:R" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 2.032 0 90)
         (effects (font (size 1.27 1.27)))
@@ -680,7 +763,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 01bc8090-f5f0-4a56-93f1-cb9b56034149)
   )
-  (label "VBB" (at 142.875 31.75 90) (fields_autoplaced)
+  (label "VCC" (at 142.875 31.75 90) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 020be139-9a1a-48e9-9910-543a5fcfb055)
   )
@@ -688,7 +771,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 048968bb-ddd8-4fed-b588-35febabf69eb)
   )
-  (label "SBL" (at 132.715 36.83 180) (fields_autoplaced)
+  (label "SCL" (at 132.715 36.83 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 04f9a11a-1fca-4942-99b4-1aa399374886)
   )
@@ -700,7 +783,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 07f0a40d-7bd5-437f-9d52-79aabb310352)
   )
-  (label "VBB" (at 142.875 98.425 90) (fields_autoplaced)
+  (label "VCC" (at 142.875 98.425 90) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 083b037f-7842-4638-98d9-4744282f844b)
   )
@@ -708,7 +791,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 08fa205f-bf57-4e6a-9626-e30eba911fc8)
   )
-  (label "VBB" (at 173.99 50.8 180) (fields_autoplaced)
+  (label "VCC" (at 173.99 50.8 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 0b52898b-434e-42b2-a44e-dad76d5a0472)
   )
@@ -728,6 +811,10 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 11e099a1-3849-4045-a5a9-f0cb80a24e7f)
   )
+  (label "ENA" (at 62.865 126.365 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid 1437012b-5076-409f-a346-b5a6ab0b575f)
+  )
   (label "SD7A" (at 153.035 141.605 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 14e188ea-7dec-468a-bc92-6bd17540d7e6)
@@ -744,7 +831,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 1d70a6b2-88e0-4349-9e8b-79583cdefd38)
   )
-  (label "VBB" (at 207.01 92.075 180) (fields_autoplaced)
+  (label "VCC" (at 207.01 92.075 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 1e43a313-e721-497d-9e0a-32b457ccd47c)
   )
@@ -756,7 +843,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 2a3ba357-a8d7-464c-ab59-0c90fc375d1d)
   )
-  (label "RBLK" (at 90.805 92.71 180) (fields_autoplaced)
+  (label "RCLK" (at 90.805 92.71 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 2ace530e-8946-4e92-a110-34f92c662002)
   )
@@ -768,7 +855,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 2edd245b-5e5c-4ab8-9ed0-a08f115ceac2)
   )
-  (label "VBB" (at 173.99 91.44 180) (fields_autoplaced)
+  (label "VCC" (at 173.99 91.44 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 310b1ccb-de71-49b1-8d3c-03780c931abb)
   )
@@ -776,7 +863,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 3120b3e2-740c-4f20-bcb5-64632065a45c)
   )
-  (label "BLK" (at 60.325 88.265 180) (fields_autoplaced)
+  (label "CLK" (at 60.325 88.265 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 32c1c89b-9282-47b0-90b2-9264d76c142f)
   )
@@ -792,13 +879,17 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 36b34fb9-638b-4993-8d68-feed6d9042c3)
   )
-  (label "VBB" (at 59.69 107.315 270) (fields_autoplaced)
+  (label "VCC" (at 59.69 107.315 270) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 3780eac8-8707-4710-aa5f-8dfb7f7337aa)
   )
-  (label "VBB" (at 51.435 107.315 270) (fields_autoplaced)
+  (label "VCC" (at 51.435 107.315 270) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 3aea02e4-c088-42be-8eba-66e9df90c0d0)
+  )
+  (label "ENB" (at 62.865 135.255 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid 3b5e418c-dc0b-4804-aa53-31d4d5c55517)
   )
   (label "SD5A" (at 153.035 131.445 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -812,7 +903,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 46ab2163-53bd-4dc6-b13f-40168bde1485)
   )
-  (label "SDB" (at 132.715 39.37 180) (fields_autoplaced)
+  (label "SDA" (at 132.715 39.37 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 498dd523-1a71-4a8e-bfde-2e87725eeedb)
   )
@@ -820,15 +911,15 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 4b66c4d4-feb3-4588-88c4-33fa0b9e7219)
   )
-  (label "VBB" (at 173.99 81.28 180) (fields_autoplaced)
+  (label "VCC" (at 173.99 81.28 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 50b80c3d-fc05-4642-80aa-40860510b723)
   )
-  (label "SDB" (at 237.49 100.965 180) (fields_autoplaced)
+  (label "SDA" (at 237.49 100.965 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 56ef0385-9795-421f-b0c7-b8387bf86459)
   )
-  (label "VBB" (at 100.965 74.93 90) (fields_autoplaced)
+  (label "VCC" (at 100.965 74.93 90) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 5833e0c8-f016-4ef3-a2d7-553d5011029b)
   )
@@ -844,19 +935,19 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 64be6d4e-2802-4d48-ad1c-5515812c138b)
   )
-  (label "BLK" (at 90.805 85.09 180) (fields_autoplaced)
+  (label "CLK" (at 90.805 85.09 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 66151135-eeef-4ede-8dd7-bfc539545578)
   )
-  (label "VBB" (at 207.01 112.395 180) (fields_autoplaced)
+  (label "VCC" (at 207.01 112.395 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 67a202f8-87e9-4bff-bbca-06a1b938302e)
   )
-  (label "RBLK" (at 60.325 90.805 180) (fields_autoplaced)
+  (label "RCLK" (at 60.325 90.805 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 69d5738c-180f-411a-8270-8c8da1c20eb4)
   )
-  (label "VBB" (at 207.01 102.235 180) (fields_autoplaced)
+  (label "VCC" (at 207.01 102.235 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 6a1d896f-d131-457e-b0ce-81fee324aa53)
   )
@@ -872,11 +963,11 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 751b853d-e70c-42c4-8196-82b10aeef205)
   )
-  (label "VBB" (at 207.01 71.755 180) (fields_autoplaced)
+  (label "VCC" (at 207.01 71.755 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 777f04f5-f160-410c-b5a9-d6362dc3003b)
   )
-  (label "VBB" (at 173.99 101.6 180) (fields_autoplaced)
+  (label "VCC" (at 173.99 101.6 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 785121dd-6bed-4054-95be-9abdcf418a90)
   )
@@ -892,7 +983,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 814e9360-edc7-4e3f-a2dd-fc7fca993e85)
   )
-  (label "SBL" (at 50.165 95.885 180) (fields_autoplaced)
+  (label "SCL" (at 50.165 95.885 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 81e47355-2371-4f9e-aa3d-ac73f18d87b7)
   )
@@ -928,15 +1019,15 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 9bcf61d2-6fce-44e6-bccc-88b1a7ded55f)
   )
-  (label "SBL" (at 237.49 98.425 180) (fields_autoplaced)
+  (label "SCL" (at 237.49 98.425 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 9cd08f54-f598-426f-92be-eb69bed1866f)
   )
-  (label "VBB" (at 173.99 60.96 180) (fields_autoplaced)
+  (label "VCC" (at 173.99 60.96 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid a1d7effb-9eb5-4483-a2b4-cf33ca8378a1)
   )
-  (label "VBB" (at 207.01 122.555 180) (fields_autoplaced)
+  (label "VCC" (at 207.01 122.555 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid a3233c08-4ff5-451a-8c3e-b256052337c3)
   )
@@ -944,9 +1035,13 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid a3d06ff4-34df-43b7-8416-9839531a1a2a)
   )
-  (label "VBB" (at 237.49 85.725 180) (fields_autoplaced)
+  (label "VCC" (at 237.49 85.725 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid a50df938-5796-4519-876e-295242ccf433)
+  )
+  (label "ENA" (at 113.665 116.205 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid a76591f1-75ff-432e-8bf6-b1a9854524df)
   )
   (label "SD6B" (at 207.01 117.475 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
@@ -956,7 +1051,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid adbc363d-797a-48d1-9ae1-b0c5cfbb8d67)
   )
-  (label "VBB" (at 90.805 87.63 180) (fields_autoplaced)
+  (label "VCC" (at 90.805 87.63 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid b218becb-9e6b-4667-951a-16ba7e8c4aa7)
   )
@@ -980,15 +1075,23 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid ba00fcaa-c517-4f07-9f36-0c115a9add84)
   )
+  (label "VCC" (at 62.865 117.475 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid bea030e3-8c5d-4f28-b482-588cf002a321)
+  )
   (label "SD1B" (at 153.035 44.45 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c0abd42b-d287-4874-a4ad-9e0c99729ee8)
+  )
+  (label "ENB" (at 113.665 49.53 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid c13de6f1-abef-464c-8495-3a4e15a47373)
   )
   (label "SB1A" (at 173.99 68.58 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid c1e6b157-8c84-41ba-a820-9ddb886cdfd3)
   )
-  (label "BLK" (at 237.49 90.805 180) (fields_autoplaced)
+  (label "CLK" (at 237.49 90.805 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid c3863ba0-d126-4db0-aaa7-3f7a756f65fa)
   )
@@ -1020,11 +1123,11 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid d7feb2bc-b415-4cdd-8db6-6cd1365369ab)
   )
-  (label "VBB" (at 173.99 71.12 180) (fields_autoplaced)
+  (label "VCC" (at 173.99 71.12 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid d94fb2a9-60c6-4c3e-9083-033c181eba0f)
   )
-  (label "VBB" (at 207.01 61.595 180) (fields_autoplaced)
+  (label "VCC" (at 207.01 61.595 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid da241721-34e3-43e9-b5fc-24b9377cdc80)
   )
@@ -1032,7 +1135,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid db123bdc-2736-402e-b585-5545ebdb9d71)
   )
-  (label "VBB" (at 207.01 51.435 180) (fields_autoplaced)
+  (label "VCC" (at 207.01 51.435 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid e18ce71d-2ad3-4fb9-95c3-d4e987c5d924)
   )
@@ -1040,15 +1143,15 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid e23b8b74-e712-4a94-b1b0-4e3cc1bf8603)
   )
-  (label "SBL" (at 132.715 103.505 180) (fields_autoplaced)
+  (label "SCL" (at 132.715 103.505 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid e2acbbdd-ee73-4163-a1ac-0a694271eda5)
   )
-  (label "SDB" (at 50.165 98.425 180) (fields_autoplaced)
+  (label "SDA" (at 50.165 98.425 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid e3d87739-6234-4016-af27-72af5734bee3)
   )
-  (label "VBB" (at 173.99 121.92 180) (fields_autoplaced)
+  (label "VCC" (at 173.99 121.92 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid e618da41-ccb0-4a57-acc1-98e9923a9db1)
   )
@@ -1060,7 +1163,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid edf4595f-811d-4fe9-b07f-5a5112146617)
   )
-  (label "VBB" (at 60.325 83.185 180) (fields_autoplaced)
+  (label "VCC" (at 60.325 83.185 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid f193f2a4-fd88-4027-bcfd-6687def5ff5c)
   )
@@ -1068,7 +1171,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid f1ae6147-5fba-4d87-98de-e9a79f1b9035)
   )
-  (label "RBLK" (at 237.49 93.345 180) (fields_autoplaced)
+  (label "RCLK" (at 237.49 93.345 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid f2439527-8a79-4d1f-a0c0-707871945161)
   )
@@ -1084,11 +1187,11 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid f8680f21-ce2c-42f3-8122-ada673c958cb)
   )
-  (label "SDB" (at 132.715 106.045 180) (fields_autoplaced)
+  (label "SDA" (at 132.715 106.045 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid face10d9-a58a-4920-98d1-66a7bc09d44d)
   )
-  (label "VBB" (at 173.99 111.76 180) (fields_autoplaced)
+  (label "VCC" (at 173.99 111.76 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid fafaa41b-e12d-44da-a269-d1fa55bea357)
   )
@@ -1096,21 +1199,52 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid fd639e4b-bbed-49cd-a483-696e3f68abb7)
   )
-  (label "VBB" (at 207.01 81.915 180) (fields_autoplaced)
+  (label "VCC" (at 207.01 81.915 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid ff07db35-1963-4e6b-aaf9-2980316e2512)
+  )
+
+  (symbol (lib_id "Device:R") (at 74.295 126.365 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 0429de53-7da8-4186-baf0-bb22ff30b57b)
+    (property "Reference" "R99" (at 74.295 121.92 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "500" (at 74.295 124.46 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 74.295 128.143 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 74.295 126.365 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 998c5b75-a96f-43cd-9db7-2d18cbb9560a))
+    (pin "2" (uuid bd46c54d-f6fc-490b-bfc2-a6ca769e963f))
+    (instances
+      (project "PEST_Driver"
+        (path "/1312aa0a-e5d3-4b8d-ac4b-b6abdfb7d180"
+          (reference "R99") (unit 1)
+        )
+      )
+      (project "Encoder_Bus"
+        (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
+          (reference "R4") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x04") (at 212.09 64.135 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 04cb79bc-d6b7-4fa9-87dc-d5bd26e1f60b)
-    (property "Reference" "J3" (at 214.63 64.77 0)
+    (property "Reference" "J11" (at 214.63 64.77 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Bonn_01x04" (at 214.63 67.31 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 212.09 64.135 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" (at 212.09 64.135 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 212.09 64.135 0)
@@ -1121,9 +1255,9 @@
     (pin "3" (uuid cf9b6889-fec6-4ee8-a223-783f19a14814))
     (pin "4" (uuid 85c44fb2-699b-4394-8143-de9b664809eb))
     (instances
-      (project "DRIFT_Driver"
+      (project "Encoder_Bus"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
-          (reference "J3") (unit 1)
+          (reference "J11") (unit 1)
         )
       )
     )
@@ -1152,9 +1286,9 @@
           (reference "C4") (unit 1)
         )
       )
-      (project "DRIFT_Driver"
+      (project "Encoder_Bus"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
-          (reference "B2") (unit 1)
+          (reference "B1") (unit 1)
         )
       )
     )
@@ -1177,7 +1311,7 @@
     )
     (pin "1" (uuid c899be73-e45d-4a53-990f-1668ecba74bd))
     (instances
-      (project "DRIFT_Driver"
+      (project "Encoder_Bus"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
           (reference "#PWR09") (unit 1)
         )
@@ -1202,9 +1336,34 @@
     )
     (pin "1" (uuid 8d7e38fa-df8c-42ee-9a35-ea594e391bff))
     (instances
-      (project "DRIFT_Driver"
+      (project "Encoder_Bus"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
           (reference "#PWR012") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 78.105 126.365 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 1301f65c-200e-4e0c-9602-fb8661712f5c)
+    (property "Reference" "#PWR027" (at 84.455 126.365 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 81.915 127 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "" (at 78.105 126.365 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 78.105 126.365 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 530f45fa-0017-4dbc-bd77-b972b61abe6a))
+    (instances
+      (project "Encoder_Bus"
+        (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
+          (reference "#PWR027") (unit 1)
         )
       )
     )
@@ -1213,13 +1372,13 @@
   (symbol (lib_id "Connector_Generic:Conn_01x04") (at 179.07 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1497769e-b446-4e7a-9862-161fce119325)
-    (property "Reference" "J14" (at 181.61 104.775 0)
+    (property "Reference" "J7" (at 181.61 104.775 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Bonn_01x04" (at 181.61 107.315 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 179.07 104.14 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" (at 179.07 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 179.07 104.14 0)
@@ -1230,9 +1389,9 @@
     (pin "3" (uuid 1a0a843f-e59e-4075-a3db-58d8843f0f72))
     (pin "4" (uuid 16a9f8c7-173e-4375-bc49-f81b2376c57b))
     (instances
-      (project "DRIFT_Driver"
+      (project "Encoder_Bus"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
-          (reference "J14") (unit 1)
+          (reference "J7") (unit 1)
         )
       )
     )
@@ -1255,7 +1414,7 @@
     )
     (pin "1" (uuid ede182d6-5165-41c3-b6c5-2544c18c1c46))
     (instances
-      (project "DRIFT_Driver"
+      (project "Encoder_Bus"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
           (reference "#PWR024") (unit 1)
         )
@@ -1280,7 +1439,7 @@
     )
     (pin "1" (uuid 98d8b102-259e-402b-8fe8-02138b95bb8f))
     (instances
-      (project "DRIFT_Driver"
+      (project "Encoder_Bus"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
           (reference "#PWR01") (unit 1)
         )
@@ -1305,7 +1464,7 @@
     )
     (pin "1" (uuid 0fee1263-6b87-4f43-b5c1-75c9bd26f969))
     (instances
-      (project "DRIFT_Driver"
+      (project "Encoder_Bus"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
           (reference "#PWR010") (unit 1)
         )
@@ -1330,9 +1489,34 @@
     )
     (pin "1" (uuid 723574e8-3dff-4110-803f-f9789db8892d))
     (instances
-      (project "DRIFT_Driver"
+      (project "Encoder_Bus"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
           (reference "#PWR07") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 78.105 135.255 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 36230385-db22-4d7f-88ef-5078273fbdfa)
+    (property "Reference" "#PWR028" (at 84.455 135.255 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 81.915 135.89 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "" (at 78.105 135.255 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 78.105 135.255 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid dae762fc-2a50-4172-8240-bc4b0c807308))
+    (instances
+      (project "Encoder_Bus"
+        (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
+          (reference "#PWR028") (unit 1)
         )
       )
     )
@@ -1355,7 +1539,7 @@
     )
     (pin "1" (uuid ad8b0fec-4332-4c9c-b385-4b485de1f5b8))
     (instances
-      (project "DRIFT_Driver"
+      (project "Encoder_Bus"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
           (reference "#PWR03") (unit 1)
         )
@@ -1366,13 +1550,13 @@
   (symbol (lib_id "Connector_Generic:Conn_01x04") (at 212.09 84.455 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3725492b-17e6-4bcd-bd8f-054a732fa5ce)
-    (property "Reference" "J7" (at 214.63 85.09 0)
+    (property "Reference" "J13" (at 214.63 85.09 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Bonn_01x04" (at 214.63 87.63 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 212.09 84.455 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" (at 212.09 84.455 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 212.09 84.455 0)
@@ -1383,9 +1567,40 @@
     (pin "3" (uuid 63d48b11-b6b0-4b4a-a844-215eed2daa7b))
     (pin "4" (uuid 0d1c9bbd-dbc3-4a9c-a7bb-07ff3319b388))
     (instances
-      (project "DRIFT_Driver"
+      (project "Encoder_Bus"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
-          (reference "J7") (unit 1)
+          (reference "J13") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:LED") (at 66.675 117.475 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 3ae64e5e-e003-4783-9351-5839bd0f64c1)
+    (property "Reference" "D1" (at 68.2625 111.125 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "LED" (at 68.2625 113.665 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "LED_SMD:LED_0603_1608Metric" (at 66.675 117.475 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 66.675 117.475 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 80035a5f-caa8-49d1-98db-c9655c666d35))
+    (pin "2" (uuid 84ed60dd-1edf-497b-92a7-d43c78c2f88e))
+    (instances
+      (project "PEST_Driver"
+        (path "/1312aa0a-e5d3-4b8d-ac4b-b6abdfb7d180"
+          (reference "D1") (unit 1)
+        )
+      )
+      (project "Encoder_Bus"
+        (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
+          (reference "D1") (unit 1)
         )
       )
     )
@@ -1420,7 +1635,7 @@
           (reference "R66") (unit 1)
         )
       )
-      (project "DRIFT_Driver"
+      (project "Encoder_Bus"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
           (reference "R1") (unit 1)
         )
@@ -1431,13 +1646,13 @@
   (symbol (lib_id "Connector_Generic:Conn_01x04") (at 179.07 114.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 40523133-9b67-433d-bef4-fa35af9d6340)
-    (property "Reference" "J16" (at 181.61 114.935 0)
+    (property "Reference" "J8" (at 181.61 114.935 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Bonn_01x04" (at 181.61 117.475 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 179.07 114.3 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" (at 179.07 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 179.07 114.3 0)
@@ -1448,9 +1663,9 @@
     (pin "3" (uuid 747f2a88-8ee1-4bd4-9497-2182e3b83aba))
     (pin "4" (uuid 9806f164-3442-4148-ae6a-9dc2b8763f25))
     (instances
-      (project "DRIFT_Driver"
+      (project "Encoder_Bus"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
-          (reference "J16") (unit 1)
+          (reference "J8") (unit 1)
         )
       )
     )
@@ -1459,13 +1674,13 @@
   (symbol (lib_id "Connector_Generic:Conn_01x07") (at 242.57 93.345 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 435ea16c-84de-4b26-9fbc-b82433452219)
-    (property "Reference" "J10" (at 245.11 92.71 0)
+    (property "Reference" "J18" (at 245.11 92.71 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Bonn_01x07" (at 245.11 95.25 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 242.57 93.345 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical" (at 242.57 93.345 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 242.57 93.345 0)
@@ -1479,9 +1694,9 @@
     (pin "6" (uuid 4ef96b07-bb4a-4232-bfef-491f2aac6e40))
     (pin "7" (uuid fd4d63c8-b846-454a-944c-3616ef1abeaa))
     (instances
-      (project "DRIFT_Driver"
+      (project "Encoder_Bus"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
-          (reference "J10") (unit 1)
+          (reference "J18") (unit 1)
         )
       )
     )
@@ -1490,13 +1705,13 @@
   (symbol (lib_id "Connector_Generic:Conn_01x04") (at 179.07 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 441f555f-69e1-4731-86a4-2d14db933cba)
-    (property "Reference" "J6" (at 181.61 74.295 0)
+    (property "Reference" "J4" (at 181.61 74.295 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Bonn_01x04" (at 181.61 76.835 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 179.07 73.66 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" (at 179.07 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 179.07 73.66 0)
@@ -1507,9 +1722,9 @@
     (pin "3" (uuid 0857ae92-a071-41c6-bed7-e6ac2ea4d9cb))
     (pin "4" (uuid 1b018caf-a86c-4624-b93a-f71d818ac4e7))
     (instances
-      (project "DRIFT_Driver"
+      (project "Encoder_Bus"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
-          (reference "J6") (unit 1)
+          (reference "J4") (unit 1)
         )
       )
     )
@@ -1518,13 +1733,13 @@
   (symbol (lib_id "Connector_Generic:Conn_01x04") (at 212.09 104.775 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 48de6aec-118f-4db0-aacc-d5f1c3a708fd)
-    (property "Reference" "J13" (at 214.63 105.41 0)
+    (property "Reference" "J15" (at 214.63 105.41 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Bonn_01x04" (at 214.63 107.95 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 212.09 104.775 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" (at 212.09 104.775 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 212.09 104.775 0)
@@ -1535,9 +1750,9 @@
     (pin "3" (uuid a780e2dd-e2df-4c62-9844-c797dea40504))
     (pin "4" (uuid da880c20-2343-4a6f-ba54-5af67e06b21d))
     (instances
-      (project "DRIFT_Driver"
+      (project "Encoder_Bus"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
-          (reference "J13") (unit 1)
+          (reference "J15") (unit 1)
         )
       )
     )
@@ -1560,7 +1775,7 @@
     )
     (pin "1" (uuid cf434e6e-055b-45a6-8003-789901d6253a))
     (instances
-      (project "DRIFT_Driver"
+      (project "Encoder_Bus"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
           (reference "#PWR05") (unit 1)
         )
@@ -1585,7 +1800,7 @@
     )
     (pin "1" (uuid 8a59fa74-fc9c-4516-bdb9-3aadb9ee2422))
     (instances
-      (project "DRIFT_Driver"
+      (project "Encoder_Bus"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
           (reference "#PWR018") (unit 1)
         )
@@ -1610,7 +1825,7 @@
     )
     (pin "1" (uuid 9e9b74b5-6c31-4a71-b98d-a9c6c85e2ea0))
     (instances
-      (project "DRIFT_Driver"
+      (project "Encoder_Bus"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
           (reference "#PWR02") (unit 1)
         )
@@ -1627,7 +1842,7 @@
     (property "Value" "Bonn_01x04" (at 214.63 128.27 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 212.09 125.095 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" (at 212.09 125.095 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 212.09 125.095 0)
@@ -1638,7 +1853,7 @@
     (pin "3" (uuid 8c65bcbf-207d-40b7-9cc0-8d3309e84f86))
     (pin "4" (uuid 5bc8676a-f5a2-40a4-901d-5dbb2f9caba4))
     (instances
-      (project "DRIFT_Driver"
+      (project "Encoder_Bus"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
           (reference "J17") (unit 1)
         )
@@ -1649,13 +1864,13 @@
   (symbol (lib_id "Connector_Generic:Conn_01x04") (at 179.07 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5abce117-f5f5-4f5e-862d-9e1a2eeecb2e)
-    (property "Reference" "J4" (at 181.61 64.135 0)
+    (property "Reference" "J3" (at 181.61 64.135 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Bonn_01x04" (at 181.61 66.675 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 179.07 63.5 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" (at 179.07 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 179.07 63.5 0)
@@ -1666,9 +1881,9 @@
     (pin "3" (uuid 1b4fe774-93f4-4cc0-95dc-21849c461536))
     (pin "4" (uuid 42187ca7-e263-43fc-b181-4ea43b6bfd8b))
     (instances
-      (project "DRIFT_Driver"
+      (project "Encoder_Bus"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
-          (reference "J4") (unit 1)
+          (reference "J3") (unit 1)
         )
       )
     )
@@ -1691,7 +1906,7 @@
     )
     (pin "1" (uuid ef6e7b95-4d2f-4b72-b0a0-ea8bcf93447f))
     (instances
-      (project "DRIFT_Driver"
+      (project "Encoder_Bus"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
           (reference "#FLG02") (unit 1)
         )
@@ -1702,13 +1917,13 @@
   (symbol (lib_id "Connector_Generic:Conn_01x07") (at 65.405 90.805 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5d8d53d3-53b5-403b-a2ee-e45a4b82c521)
-    (property "Reference" "J9" (at 67.945 90.17 0)
+    (property "Reference" "J1" (at 67.945 90.17 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Bonn_01x07" (at 67.945 92.71 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 65.405 90.805 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical" (at 65.405 90.805 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 65.405 90.805 0)
@@ -1722,9 +1937,9 @@
     (pin "6" (uuid 6582cc80-377a-4380-bebe-7ef778a1ff1a))
     (pin "7" (uuid aabca86c-ebce-4f97-b5e7-ad6bbdf53681))
     (instances
-      (project "DRIFT_Driver"
+      (project "Encoder_Bus"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
-          (reference "J9") (unit 1)
+          (reference "J1") (unit 1)
         )
       )
     )
@@ -1747,7 +1962,7 @@
     )
     (pin "1" (uuid 0838ae93-3062-4f1b-bc67-a3bcc53651d8))
     (instances
-      (project "DRIFT_Driver"
+      (project "Encoder_Bus"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
           (reference "#PWR015") (unit 1)
         )
@@ -1772,7 +1987,7 @@
     )
     (pin "1" (uuid ecdb7c3f-80d9-4208-9521-d2a6e10ba5fb))
     (instances
-      (project "DRIFT_Driver"
+      (project "Encoder_Bus"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
           (reference "#PWR025") (unit 1)
         )
@@ -1797,7 +2012,7 @@
     )
     (pin "1" (uuid 66191de0-aabd-43f2-b545-a978488d5600))
     (instances
-      (project "DRIFT_Driver"
+      (project "Encoder_Bus"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
           (reference "#PWR023") (unit 1)
         )
@@ -1822,9 +2037,40 @@
     )
     (pin "1" (uuid 1f2a7790-ff72-4acc-b609-37c4a82d42d6))
     (instances
-      (project "DRIFT_Driver"
+      (project "Encoder_Bus"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
           (reference "#PWR08") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R") (at 74.295 117.475 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 7220a35f-b2c6-4f67-8909-a147e99ea8a9)
+    (property "Reference" "R98" (at 74.295 113.03 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "500" (at 74.295 115.57 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 74.295 119.253 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 74.295 117.475 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 363c3bbf-7082-411d-83e5-e0ac5e5e36f2))
+    (pin "2" (uuid 3399b08f-02b3-4d96-b6ad-b8b8aed83172))
+    (instances
+      (project "PEST_Driver"
+        (path "/1312aa0a-e5d3-4b8d-ac4b-b6abdfb7d180"
+          (reference "R98") (unit 1)
+        )
+      )
+      (project "Encoder_Bus"
+        (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
+          (reference "R3") (unit 1)
         )
       )
     )
@@ -1833,7 +2079,7 @@
   (symbol (lib_id "Interface_Expansion:TCA9548APWR") (at 142.875 54.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 72d489c8-f098-4445-833f-7fe7a8dbc143)
-    (property "Reference" "U1" (at 144.8309 30.48 0)
+    (property "Reference" "U2" (at 144.8309 30.48 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TBB9548BPWR" (at 144.8309 33.02 0)
@@ -1870,9 +2116,9 @@
     (pin "8" (uuid 320b2e8f-800c-4177-a8d3-7102257dcba2))
     (pin "9" (uuid b43ca5cb-b8df-4716-a41f-9f619b587cbc))
     (instances
-      (project "DRIFT_Driver"
+      (project "Encoder_Bus"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
-          (reference "U1") (unit 1)
+          (reference "U2") (unit 1)
         )
       )
     )
@@ -1895,7 +2141,7 @@
     )
     (pin "1" (uuid 75c1d228-5479-4128-8574-69d08badced9))
     (instances
-      (project "DRIFT_Driver"
+      (project "Encoder_Bus"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
           (reference "#PWR04") (unit 1)
         )
@@ -1906,13 +2152,13 @@
   (symbol (lib_id "Connector_Generic:Conn_01x04") (at 179.07 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 86e10dff-191c-4713-99c4-062f5ecb7591)
-    (property "Reference" "J8" (at 181.61 84.455 0)
+    (property "Reference" "J5" (at 181.61 84.455 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Bonn_01x04" (at 181.61 86.995 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 179.07 83.82 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" (at 179.07 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 179.07 83.82 0)
@@ -1923,9 +2169,9 @@
     (pin "3" (uuid 36f6ddc2-296e-4fc6-98a2-a3cfc857c663))
     (pin "4" (uuid 5030eced-2a32-4f87-aa06-33e05bc64159))
     (instances
-      (project "DRIFT_Driver"
+      (project "Encoder_Bus"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
-          (reference "J8") (unit 1)
+          (reference "J5") (unit 1)
         )
       )
     )
@@ -1948,7 +2194,7 @@
     )
     (pin "1" (uuid 52aaf920-2ec1-48d0-8957-d2cc6990d628))
     (instances
-      (project "DRIFT_Driver"
+      (project "Encoder_Bus"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
           (reference "#PWR019") (unit 1)
         )
@@ -1973,7 +2219,7 @@
     )
     (pin "1" (uuid b4c6d6fb-9f14-4079-ba22-476849dcc5be))
     (instances
-      (project "DRIFT_Driver"
+      (project "Encoder_Bus"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
           (reference "#FLG01") (unit 1)
         )
@@ -1984,13 +2230,13 @@
   (symbol (lib_id "Connector_Generic:Conn_01x04") (at 179.07 124.46 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9abb721e-40d6-4a22-9f48-19f4ea2f365e)
-    (property "Reference" "J18" (at 181.61 125.095 0)
+    (property "Reference" "J9" (at 181.61 125.095 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Bonn_01x04" (at 181.61 127.635 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 179.07 124.46 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" (at 179.07 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 179.07 124.46 0)
@@ -2001,9 +2247,9 @@
     (pin "3" (uuid d0e51beb-b69d-4693-b827-d5aa78d57564))
     (pin "4" (uuid c0734a61-9b82-42eb-b0b9-8d62e7d46337))
     (instances
-      (project "DRIFT_Driver"
+      (project "Encoder_Bus"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
-          (reference "J18") (unit 1)
+          (reference "J9") (unit 1)
         )
       )
     )
@@ -2026,7 +2272,7 @@
     )
     (pin "1" (uuid ef72912f-0b75-4dc9-af5f-e1585f917bae))
     (instances
-      (project "DRIFT_Driver"
+      (project "Encoder_Bus"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
           (reference "#PWR011") (unit 1)
         )
@@ -2037,13 +2283,13 @@
   (symbol (lib_id "Connector_Generic:Conn_01x04") (at 212.09 114.935 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9e92600f-fe16-43eb-b8e9-ebedeb913108)
-    (property "Reference" "J15" (at 214.63 115.57 0)
+    (property "Reference" "J16" (at 214.63 115.57 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Bonn_01x04" (at 214.63 118.11 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 212.09 114.935 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" (at 212.09 114.935 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 212.09 114.935 0)
@@ -2054,9 +2300,9 @@
     (pin "3" (uuid 867243a2-c857-455e-9ce2-35740ee665e6))
     (pin "4" (uuid 05cd3b14-4d2b-4572-818b-5d7f90a5f931))
     (instances
-      (project "DRIFT_Driver"
+      (project "Encoder_Bus"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
-          (reference "J15") (unit 1)
+          (reference "J16") (unit 1)
         )
       )
     )
@@ -2065,13 +2311,13 @@
   (symbol (lib_id "Connector_Generic:Conn_01x04") (at 212.09 74.295 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9f7f9fe2-1a35-455e-b04a-6dec7d665498)
-    (property "Reference" "J5" (at 214.63 74.93 0)
+    (property "Reference" "J12" (at 214.63 74.93 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Bonn_01x04" (at 214.63 77.47 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 212.09 74.295 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" (at 212.09 74.295 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 212.09 74.295 0)
@@ -2082,9 +2328,9 @@
     (pin "3" (uuid e5fc9a16-07c5-4742-a738-a8384fec60dd))
     (pin "4" (uuid 6fb2c23f-be88-4c22-8fa4-a1dbc7b99060))
     (instances
-      (project "DRIFT_Driver"
+      (project "Encoder_Bus"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
-          (reference "J5") (unit 1)
+          (reference "J12") (unit 1)
         )
       )
     )
@@ -2107,7 +2353,7 @@
     )
     (pin "1" (uuid bc3dc255-ef72-4b97-adf3-ff6836ce3fae))
     (instances
-      (project "DRIFT_Driver"
+      (project "Encoder_Bus"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
           (reference "#PWR014") (unit 1)
         )
@@ -2118,13 +2364,13 @@
   (symbol (lib_id "Connector_Generic:Conn_01x04") (at 212.09 94.615 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a2149b41-117e-42c7-a785-92f529872766)
-    (property "Reference" "J11" (at 214.63 95.25 0)
+    (property "Reference" "J14" (at 214.63 95.25 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Bonn_01x04" (at 214.63 97.79 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 212.09 94.615 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" (at 212.09 94.615 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 212.09 94.615 0)
@@ -2135,9 +2381,34 @@
     (pin "3" (uuid ace672c4-2e2a-4e13-ad8c-176149c4948e))
     (pin "4" (uuid 86345890-1467-4d07-b48b-4fe36206ff50))
     (instances
-      (project "DRIFT_Driver"
+      (project "Encoder_Bus"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
-          (reference "J11") (unit 1)
+          (reference "J14") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 78.105 117.475 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid a424b479-b198-4632-91b8-d66083cb9104)
+    (property "Reference" "#PWR026" (at 84.455 117.475 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 81.915 118.11 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "" (at 78.105 117.475 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 78.105 117.475 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 7b34f50a-96fa-489c-a7e6-73a59a54e86f))
+    (instances
+      (project "Encoder_Bus"
+        (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
+          (reference "#PWR026") (unit 1)
         )
       )
     )
@@ -2146,13 +2417,13 @@
   (symbol (lib_id "Connector_Generic:Conn_01x04") (at 179.07 93.98 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a70b0d2e-09e9-4653-9e3d-98e35cc42288)
-    (property "Reference" "J12" (at 181.61 94.615 0)
+    (property "Reference" "J6" (at 181.61 94.615 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Bonn_01x04" (at 181.61 97.155 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 179.07 93.98 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" (at 179.07 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 179.07 93.98 0)
@@ -2163,9 +2434,9 @@
     (pin "3" (uuid e3a7b5c4-bdc2-4de6-89c5-0128ed756422))
     (pin "4" (uuid a79f7c38-f620-4213-954b-4d798737e760))
     (instances
-      (project "DRIFT_Driver"
+      (project "Encoder_Bus"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
-          (reference "J12") (unit 1)
+          (reference "J6") (unit 1)
         )
       )
     )
@@ -2188,7 +2459,7 @@
     )
     (pin "1" (uuid eeff0f8d-a76d-4ac9-8e14-82010494713a))
     (instances
-      (project "DRIFT_Driver"
+      (project "Encoder_Bus"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
           (reference "#PWR020") (unit 1)
         )
@@ -2205,7 +2476,7 @@
     (property "Value" "Bonn_01x04" (at 181.61 56.515 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 179.07 53.34 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" (at 179.07 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 179.07 53.34 0)
@@ -2216,7 +2487,7 @@
     (pin "3" (uuid 0dda8ac9-f233-45e1-bcdb-7b6f05e940ba))
     (pin "4" (uuid a991dcfb-4808-4bb6-a1f9-f01644dca1fa))
     (instances
-      (project "DRIFT_Driver"
+      (project "Encoder_Bus"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
           (reference "J2") (unit 1)
         )
@@ -2241,7 +2512,7 @@
     )
     (pin "1" (uuid 4365cf4b-28c8-4393-ab9e-8284fede92f7))
     (instances
-      (project "DRIFT_Driver"
+      (project "Encoder_Bus"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
           (reference "#PWR06") (unit 1)
         )
@@ -2266,7 +2537,7 @@
     )
     (pin "1" (uuid a11510d5-93d9-4278-b18b-9005d88cf2ae))
     (instances
-      (project "DRIFT_Driver"
+      (project "Encoder_Bus"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
           (reference "#PWR017") (unit 1)
         )
@@ -2277,13 +2548,13 @@
   (symbol (lib_id "Connector_Generic:Conn_01x04") (at 212.09 53.975 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b9872b89-5dc1-48e6-862d-a458e6320f09)
-    (property "Reference" "J1" (at 214.63 54.61 0)
+    (property "Reference" "J10" (at 214.63 54.61 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Bonn_01x04" (at 214.63 57.15 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 212.09 53.975 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" (at 212.09 53.975 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 212.09 53.975 0)
@@ -2294,9 +2565,9 @@
     (pin "3" (uuid 5a7db0ca-de5e-4a4e-b5c8-68c849be4717))
     (pin "4" (uuid dba783e1-42fa-4a21-a89d-9bc30f8e9a84))
     (instances
-      (project "DRIFT_Driver"
+      (project "Encoder_Bus"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
-          (reference "J1") (unit 1)
+          (reference "J10") (unit 1)
         )
       )
     )
@@ -2342,9 +2613,9 @@
           (reference "U6") (unit 1)
         )
       )
-      (project "DRIFT_Driver"
+      (project "Encoder_Bus"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
-          (reference "U2") (unit 1)
+          (reference "U1") (unit 1)
         )
       )
     )
@@ -2390,7 +2661,7 @@
     (pin "8" (uuid 506dff3d-6d6c-4f06-8656-e1f799d9ba45))
     (pin "9" (uuid 886b1892-fbb2-4b99-ab5b-46b0dcd74496))
     (instances
-      (project "DRIFT_Driver"
+      (project "Encoder_Bus"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
           (reference "U3") (unit 1)
         )
@@ -2421,7 +2692,7 @@
           (reference "C4") (unit 1)
         )
       )
-      (project "DRIFT_Driver"
+      (project "Encoder_Bus"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
           (reference "B3") (unit 1)
         )
@@ -2446,7 +2717,7 @@
     )
     (pin "1" (uuid 1ebd2da8-c280-4c33-9465-0ceddac2d444))
     (instances
-      (project "DRIFT_Driver"
+      (project "Encoder_Bus"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
           (reference "#PWR016") (unit 1)
         )
@@ -2471,9 +2742,71 @@
     )
     (pin "1" (uuid 45cc7e4e-f9a2-4434-b23d-93561331465b))
     (instances
-      (project "DRIFT_Driver"
+      (project "Encoder_Bus"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
           (reference "#PWR022") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:LED") (at 66.675 126.365 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid e6a77fe5-d569-42f8-816a-f0550db98fae)
+    (property "Reference" "D2" (at 68.2625 120.015 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "LED" (at 68.2625 122.555 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "LED_SMD:LED_0603_1608Metric" (at 66.675 126.365 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 66.675 126.365 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid b380c055-36bd-4322-89df-2b84beba3198))
+    (pin "2" (uuid aa37d019-8ad3-4d2c-9cb7-9e46b2a9458f))
+    (instances
+      (project "PEST_Driver"
+        (path "/1312aa0a-e5d3-4b8d-ac4b-b6abdfb7d180"
+          (reference "D2") (unit 1)
+        )
+      )
+      (project "Encoder_Bus"
+        (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
+          (reference "D2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:LED") (at 66.675 135.255 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid ea9ca0a5-3133-4554-98d4-515ef23f31b8)
+    (property "Reference" "D3" (at 68.2625 128.905 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "LED" (at 68.2625 131.445 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "LED_SMD:LED_0603_1608Metric" (at 66.675 135.255 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 66.675 135.255 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid a4f6c8b4-9bf1-4756-b0ec-632526dc8133))
+    (pin "2" (uuid 51e35c96-b81d-4d9a-bb25-1c9664945fc3))
+    (instances
+      (project "PEST_Driver"
+        (path "/1312aa0a-e5d3-4b8d-ac4b-b6abdfb7d180"
+          (reference "D3") (unit 1)
+        )
+      )
+      (project "Encoder_Bus"
+        (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
+          (reference "D3") (unit 1)
         )
       )
     )
@@ -2502,9 +2835,9 @@
           (reference "C4") (unit 1)
         )
       )
-      (project "DRIFT_Driver"
+      (project "Encoder_Bus"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
-          (reference "B1") (unit 1)
+          (reference "B2") (unit 1)
         )
       )
     )
@@ -2527,7 +2860,7 @@
     )
     (pin "1" (uuid ddb3ef11-7bac-4941-a1c1-6d3bbdcec50d))
     (instances
-      (project "DRIFT_Driver"
+      (project "Encoder_Bus"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
           (reference "#PWR013") (unit 1)
         )
@@ -2552,7 +2885,7 @@
     )
     (pin "1" (uuid 98cbee1c-5b51-4df2-b602-2e3ce8a7fc2d))
     (instances
-      (project "DRIFT_Driver"
+      (project "Encoder_Bus"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
           (reference "#PWR021") (unit 1)
         )
@@ -2589,9 +2922,40 @@
           (reference "R66") (unit 1)
         )
       )
-      (project "DRIFT_Driver"
+      (project "Encoder_Bus"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
           (reference "R2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R") (at 74.295 135.255 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid fe4d4e97-656a-4246-9e64-ad2d2ffd1b3a)
+    (property "Reference" "R100" (at 74.295 130.81 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "500" (at 74.295 133.35 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 74.295 137.033 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 74.295 135.255 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid b82c005e-92f5-4e77-b167-8c091b4bbeb2))
+    (pin "2" (uuid 0f9cd844-0239-443a-bb83-ed16f9f5ef0f))
+    (instances
+      (project "PEST_Driver"
+        (path "/1312aa0a-e5d3-4b8d-ac4b-b6abdfb7d180"
+          (reference "R100") (unit 1)
+        )
+      )
+      (project "Encoder_Bus"
+        (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
+          (reference "R5") (unit 1)
         )
       )
     )

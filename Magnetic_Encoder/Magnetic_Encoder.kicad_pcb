@@ -586,6 +586,18 @@
 
   (gr_rect (start 20 20) (end 32 35)
     (stroke (width 0.1) (type default)) (fill none) (layer "Edge.Cuts") (tstamp fe1435fa-2f47-4d71-8d9e-27b1eef234c1))
+  (gr_text "GND" (at 27.9 24.2 90) (layer "B.SilkS") (tstamp 101a1894-b8b1-4544-a8dd-688533a35760)
+    (effects (font (size 1 1) (thickness 0.15)) (justify left bottom mirror))
+  )
+  (gr_text "SDA" (at 25.4 24.3 90) (layer "B.SilkS") (tstamp 3087a142-5568-4099-8188-446e490596f4)
+    (effects (font (size 1 1) (thickness 0.15)) (justify left bottom mirror))
+  )
+  (gr_text "SCL" (at 22.8 24.4 90) (layer "B.SilkS") (tstamp 31c10a09-0b34-49f2-b999-0463abab8959)
+    (effects (font (size 1 1) (thickness 0.15)) (justify left bottom mirror))
+  )
+  (gr_text "3.3V" (at 30.5 24 90) (layer "B.SilkS") (tstamp 9465e8a3-f6a5-44e5-aee4-7fa7e2c5770e)
+    (effects (font (size 1 1) (thickness 0.15)) (justify left bottom mirror))
+  )
 
   (segment (start 26.2105 33.134098) (end 26.2105 33.4805) (width 0.25) (layer "F.Cu") (net 1) (tstamp 1d4756e6-b77d-40a1-b3fb-4ef5a5cb4437))
   (segment (start 26.855 34.125) (end 27.16 34.125) (width 0.25) (layer "F.Cu") (net 1) (tstamp 2722dd12-fdb0-4e46-9788-8fcfb3938478))
