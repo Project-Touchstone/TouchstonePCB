@@ -9720,7 +9720,7 @@
     (stroke (width 0.1) (type default)) (fill none) (layer "Edge.Cuts") (tstamp dc51c5ab-8cd0-4101-bc2b-78d3b7995b6b))
   (gr_text "©CGR" (at 61.3 33.9) (layer "B.SilkS") (tstamp 51ba3d52-0501-4997-a9ee-2bb9b01f42cf)
     (effects (font (face "Rockwell") (size 2 2) (thickness 0.15)) (justify left bottom mirror))
-    (render_cache "©CGR" -0
+    (render_cache "©CGR" 0
       (polygon
         (pts
           (xy 60.278324 32.091239)          (xy 60.309442 32.093054)          (xy 60.33969 32.096078)          (xy 60.369068 32.100313)
@@ -10127,7 +10127,7 @@
   )
   (gr_text "PEST Driver 1.1" (at 64.15 31.05) (layer "B.SilkS") (tstamp f733e849-de72-4bd5-b784-b49247dea21e)
     (effects (font (face "Rockwell") (size 2 2) (thickness 0.15)) (justify left bottom mirror))
-    (render_cache "PEST Driver 1.1" -0
+    (render_cache "PEST Driver 1.1" 0
       (polygon
         (pts
           (xy 64.093824 29.053056)          (xy 63.853 29.053056)          (xy 63.853 30.459895)          (xy 64.093824 30.459895)

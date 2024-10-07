@@ -759,7 +759,7 @@
     (uuid fbbf12bb-4e39-4073-ad4c-efe9395e0030)
   )
 
-  (label "SB0B" (at 153.035 36.83 0) (fields_autoplaced)
+  (label "SC0B" (at 153.035 36.83 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 01bc8090-f5f0-4a56-93f1-cb9b56034149)
   )
@@ -779,7 +779,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 07e17272-44a8-45e6-9dbe-06bd441eff06)
   )
-  (label "SB4A" (at 153.035 123.825 0) (fields_autoplaced)
+  (label "SC4A" (at 153.035 123.825 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 07f0a40d-7bd5-437f-9d52-79aabb310352)
   )
@@ -795,11 +795,11 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 0b52898b-434e-42b2-a44e-dad76d5a0472)
   )
-  (label "SB1B" (at 153.035 41.91 0) (fields_autoplaced)
+  (label "SC1B" (at 153.035 41.91 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 0c268521-d90a-4f31-a36d-6db83a5d3110)
   )
-  (label "SB3B" (at 153.035 52.07 0) (fields_autoplaced)
+  (label "SC3B" (at 153.035 52.07 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 10d86d3d-5333-4215-bea4-5e9a65623c5c)
   )
@@ -827,7 +827,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 18bccc19-cf61-4727-a9ee-68dc2651c41e)
   )
-  (label "SB2A" (at 173.99 78.74 180) (fields_autoplaced)
+  (label "SC2A" (at 173.99 78.74 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 1d70a6b2-88e0-4349-9e8b-79583cdefd38)
   )
@@ -835,11 +835,11 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 1e43a313-e721-497d-9e0a-32b457ccd47c)
   )
-  (label "SB5B" (at 207.01 109.855 180) (fields_autoplaced)
+  (label "SC5B" (at 207.01 109.855 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 29bc5d6b-69ab-4474-9200-d723f7b3f92b)
   )
-  (label "SB1A" (at 153.035 108.585 0) (fields_autoplaced)
+  (label "SC1A" (at 153.035 108.585 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 2a3ba357-a8d7-464c-ab59-0c90fc375d1d)
   )
@@ -847,11 +847,11 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 2ace530e-8946-4e92-a110-34f92c662002)
   )
-  (label "SB4B" (at 153.035 57.15 0) (fields_autoplaced)
+  (label "SC4B" (at 153.035 57.15 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 2c5b3bca-7ee4-40ee-b873-c5e5ef6fa0c7)
   )
-  (label "SB5A" (at 153.035 128.905 0) (fields_autoplaced)
+  (label "SC5A" (at 153.035 128.905 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 2edd245b-5e5c-4ab8-9ed0-a08f115ceac2)
   )
@@ -859,7 +859,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 310b1ccb-de71-49b1-8d3c-03780c931abb)
   )
-  (label "SB7B" (at 153.035 72.39 0) (fields_autoplaced)
+  (label "SC7B" (at 153.035 72.39 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 3120b3e2-740c-4f20-bcb5-64632065a45c)
   )
@@ -867,11 +867,11 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 32c1c89b-9282-47b0-90b2-9264d76c142f)
   )
-  (label "SB6A" (at 153.035 133.985 0) (fields_autoplaced)
+  (label "SC6A" (at 153.035 133.985 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 33937036-4ce3-4e13-be09-d29ed9d1ec13)
   )
-  (label "SB2A" (at 153.035 113.665 0) (fields_autoplaced)
+  (label "SC2A" (at 153.035 113.665 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 35e6e778-4776-4f03-bfaa-9580720ded84)
   )
@@ -899,7 +899,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 4626ce8b-b369-467a-9563-d646ac4b308e)
   )
-  (label "SB3B" (at 207.01 89.535 180) (fields_autoplaced)
+  (label "SC3B" (at 207.01 89.535 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 46ab2163-53bd-4dc6-b13f-40168bde1485)
   )
@@ -907,7 +907,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 498dd523-1a71-4a8e-bfde-2e87725eeedb)
   )
-  (label "SB2B" (at 153.035 46.99 0) (fields_autoplaced)
+  (label "SC2B" (at 153.035 46.99 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 4b66c4d4-feb3-4588-88c4-33fa0b9e7219)
   )
@@ -923,7 +923,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 5833e0c8-f016-4ef3-a2d7-553d5011029b)
   )
-  (label "SB5B" (at 153.035 62.23 0) (fields_autoplaced)
+  (label "SC5B" (at 153.035 62.23 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 5cac8453-0238-48c0-93f9-140a54dfae07)
   )
@@ -959,7 +959,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 739d551a-0df6-4529-924c-a8d61cfc99e5)
   )
-  (label "SB2B" (at 207.01 79.375 180) (fields_autoplaced)
+  (label "SC2B" (at 207.01 79.375 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 751b853d-e70c-42c4-8196-82b10aeef205)
   )
@@ -971,7 +971,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 785121dd-6bed-4054-95be-9abdcf418a90)
   )
-  (label "SB7A" (at 173.99 129.54 180) (fields_autoplaced)
+  (label "SC7A" (at 173.99 129.54 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 7dc1b7f2-ef11-4297-9f34-390e16d3ddbc)
   )
@@ -979,7 +979,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 7ece7be7-40b8-49b1-902f-9b647c202317)
   )
-  (label "SB6B" (at 153.035 67.31 0) (fields_autoplaced)
+  (label "SC6B" (at 153.035 67.31 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 814e9360-edc7-4e3f-a2dd-fc7fca993e85)
   )
@@ -991,7 +991,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 8c3cbce4-b98f-4e34-b66a-965891ae9a7f)
   )
-  (label "SB7B" (at 207.01 130.175 180) (fields_autoplaced)
+  (label "SC7B" (at 207.01 130.175 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 9085d9b9-81f9-4d2d-b9a4-2ace4f11eec0)
   )
@@ -999,19 +999,19 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 927ea18b-86ca-4371-8f22-dd7eaab76435)
   )
-  (label "SB0A" (at 153.035 103.505 0) (fields_autoplaced)
+  (label "SC0A" (at 153.035 103.505 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 93673808-d88e-43c8-b66f-b6aa15677e96)
   )
-  (label "SB5A" (at 173.99 109.22 180) (fields_autoplaced)
+  (label "SC5A" (at 173.99 109.22 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 94e99080-788e-4714-9765-59d6e86ec3dc)
   )
-  (label "SB3A" (at 153.035 118.745 0) (fields_autoplaced)
+  (label "SC3A" (at 153.035 118.745 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 96baffa7-21c1-45a3-a085-fef4c753da4d)
   )
-  (label "SB4A" (at 173.99 99.06 180) (fields_autoplaced)
+  (label "SC4A" (at 173.99 99.06 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 98a01a90-c14c-4e50-be3a-fe52e9ee27b2)
   )
@@ -1047,7 +1047,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid a8d6a9cf-a989-45a2-a750-84fb19394d88)
   )
-  (label "SB1B" (at 207.01 69.215 180) (fields_autoplaced)
+  (label "SC1B" (at 207.01 69.215 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid adbc363d-797a-48d1-9ae1-b0c5cfbb8d67)
   )
@@ -1055,15 +1055,15 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid b218becb-9e6b-4667-951a-16ba7e8c4aa7)
   )
-  (label "SB3A" (at 173.99 88.9 180) (fields_autoplaced)
+  (label "SC3A" (at 173.99 88.9 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid b26739bf-00a9-46be-8ede-df78784b6432)
   )
-  (label "SB7A" (at 153.035 139.065 0) (fields_autoplaced)
+  (label "SC7A" (at 153.035 139.065 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid b3568d0e-01a8-483a-963a-8e13b9befaea)
   )
-  (label "SB6A" (at 173.99 119.38 180) (fields_autoplaced)
+  (label "SC6A" (at 173.99 119.38 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid b5df5d6c-5719-4a0c-8039-a0784c2b962a)
   )
@@ -1071,7 +1071,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid b9956ec5-0252-4333-a125-e2278f46068a)
   )
-  (label "SB0A" (at 173.99 58.42 180) (fields_autoplaced)
+  (label "SC0A" (at 173.99 58.42 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid ba00fcaa-c517-4f07-9f36-0c115a9add84)
   )
@@ -1087,7 +1087,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid c13de6f1-abef-464c-8495-3a4e15a47373)
   )
-  (label "SB1A" (at 173.99 68.58 180) (fields_autoplaced)
+  (label "SC1A" (at 173.99 68.58 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid c1e6b157-8c84-41ba-a820-9ddb886cdfd3)
   )
@@ -1111,7 +1111,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid ca963315-3239-416c-be64-e9d26a2fbbd7)
   )
-  (label "SB4B" (at 207.01 99.695 180) (fields_autoplaced)
+  (label "SC4B" (at 207.01 99.695 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid caaafd87-75cb-407b-b08d-eb65ad6a902f)
   )
@@ -1131,7 +1131,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid da241721-34e3-43e9-b5fc-24b9377cdc80)
   )
-  (label "SB6B" (at 207.01 120.015 180) (fields_autoplaced)
+  (label "SC6B" (at 207.01 120.015 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid db123bdc-2736-402e-b585-5545ebdb9d71)
   )
@@ -1139,7 +1139,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid e18ce71d-2ad3-4fb9-95c3-d4e987c5d924)
   )
-  (label "SB0B" (at 207.01 59.055 180) (fields_autoplaced)
+  (label "SC0B" (at 207.01 59.055 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid e23b8b74-e712-4a94-b1b0-4e3cc1bf8603)
   )
@@ -1227,7 +1227,7 @@
           (reference "R99") (unit 1)
         )
       )
-      (project "Encoder_Bus"
+      (project "BusChain"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
           (reference "R4") (unit 1)
         )
@@ -1255,7 +1255,7 @@
     (pin "3" (uuid cf9b6889-fec6-4ee8-a223-783f19a14814))
     (pin "4" (uuid 85c44fb2-699b-4394-8143-de9b664809eb))
     (instances
-      (project "Encoder_Bus"
+      (project "BusChain"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
           (reference "J11") (unit 1)
         )
@@ -1266,10 +1266,10 @@
   (symbol (lib_id "Device:C_Small") (at 98.425 74.93 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0abc5ac0-ddba-4366-a2ae-dcb72f2055d5)
-    (property "Reference" "C4" (at 98.4313 69.215 90)
+    (property "Reference" "C4" (at 98.4313 69.85 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "0.1u" (at 98.4313 71.755 90)
+    (property "Value" "0.1u" (at 98.4313 72.39 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 98.425 74.93 0)
@@ -1286,9 +1286,9 @@
           (reference "C4") (unit 1)
         )
       )
-      (project "Encoder_Bus"
+      (project "BusChain"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
-          (reference "B1") (unit 1)
+          (reference "C1") (unit 1)
         )
       )
     )
@@ -1311,7 +1311,7 @@
     )
     (pin "1" (uuid c899be73-e45d-4a53-990f-1668ecba74bd))
     (instances
-      (project "Encoder_Bus"
+      (project "BusChain"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
           (reference "#PWR09") (unit 1)
         )
@@ -1336,7 +1336,7 @@
     )
     (pin "1" (uuid 8d7e38fa-df8c-42ee-9a35-ea594e391bff))
     (instances
-      (project "Encoder_Bus"
+      (project "BusChain"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
           (reference "#PWR012") (unit 1)
         )
@@ -1361,7 +1361,7 @@
     )
     (pin "1" (uuid 530f45fa-0017-4dbc-bd77-b972b61abe6a))
     (instances
-      (project "Encoder_Bus"
+      (project "BusChain"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
           (reference "#PWR027") (unit 1)
         )
@@ -1389,7 +1389,7 @@
     (pin "3" (uuid 1a0a843f-e59e-4075-a3db-58d8843f0f72))
     (pin "4" (uuid 16a9f8c7-173e-4375-bc49-f81b2376c57b))
     (instances
-      (project "Encoder_Bus"
+      (project "BusChain"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
           (reference "J7") (unit 1)
         )
@@ -1414,7 +1414,7 @@
     )
     (pin "1" (uuid ede182d6-5165-41c3-b6c5-2544c18c1c46))
     (instances
-      (project "Encoder_Bus"
+      (project "BusChain"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
           (reference "#PWR024") (unit 1)
         )
@@ -1439,7 +1439,7 @@
     )
     (pin "1" (uuid 98d8b102-259e-402b-8fe8-02138b95bb8f))
     (instances
-      (project "Encoder_Bus"
+      (project "BusChain"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
           (reference "#PWR01") (unit 1)
         )
@@ -1464,7 +1464,7 @@
     )
     (pin "1" (uuid 0fee1263-6b87-4f43-b5c1-75c9bd26f969))
     (instances
-      (project "Encoder_Bus"
+      (project "BusChain"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
           (reference "#PWR010") (unit 1)
         )
@@ -1489,7 +1489,7 @@
     )
     (pin "1" (uuid 723574e8-3dff-4110-803f-f9789db8892d))
     (instances
-      (project "Encoder_Bus"
+      (project "BusChain"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
           (reference "#PWR07") (unit 1)
         )
@@ -1514,7 +1514,7 @@
     )
     (pin "1" (uuid dae762fc-2a50-4172-8240-bc4b0c807308))
     (instances
-      (project "Encoder_Bus"
+      (project "BusChain"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
           (reference "#PWR028") (unit 1)
         )
@@ -1539,7 +1539,7 @@
     )
     (pin "1" (uuid ad8b0fec-4332-4c9c-b385-4b485de1f5b8))
     (instances
-      (project "Encoder_Bus"
+      (project "BusChain"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
           (reference "#PWR03") (unit 1)
         )
@@ -1567,7 +1567,7 @@
     (pin "3" (uuid 63d48b11-b6b0-4b4a-a844-215eed2daa7b))
     (pin "4" (uuid 0d1c9bbd-dbc3-4a9c-a7bb-07ff3319b388))
     (instances
-      (project "Encoder_Bus"
+      (project "BusChain"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
           (reference "J13") (unit 1)
         )
@@ -1598,7 +1598,7 @@
           (reference "D1") (unit 1)
         )
       )
-      (project "Encoder_Bus"
+      (project "BusChain"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
           (reference "D1") (unit 1)
         )
@@ -1635,7 +1635,7 @@
           (reference "R66") (unit 1)
         )
       )
-      (project "Encoder_Bus"
+      (project "BusChain"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
           (reference "R1") (unit 1)
         )
@@ -1663,7 +1663,7 @@
     (pin "3" (uuid 747f2a88-8ee1-4bd4-9497-2182e3b83aba))
     (pin "4" (uuid 9806f164-3442-4148-ae6a-9dc2b8763f25))
     (instances
-      (project "Encoder_Bus"
+      (project "BusChain"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
           (reference "J8") (unit 1)
         )
@@ -1680,7 +1680,7 @@
     (property "Value" "Bonn_01x07" (at 245.11 95.25 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical" (at 242.57 93.345 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Horizontal" (at 242.57 93.345 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 242.57 93.345 0)
@@ -1694,7 +1694,7 @@
     (pin "6" (uuid 4ef96b07-bb4a-4232-bfef-491f2aac6e40))
     (pin "7" (uuid fd4d63c8-b846-454a-944c-3616ef1abeaa))
     (instances
-      (project "Encoder_Bus"
+      (project "BusChain"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
           (reference "J18") (unit 1)
         )
@@ -1722,7 +1722,7 @@
     (pin "3" (uuid 0857ae92-a071-41c6-bed7-e6ac2ea4d9cb))
     (pin "4" (uuid 1b018caf-a86c-4624-b93a-f71d818ac4e7))
     (instances
-      (project "Encoder_Bus"
+      (project "BusChain"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
           (reference "J4") (unit 1)
         )
@@ -1750,7 +1750,7 @@
     (pin "3" (uuid a780e2dd-e2df-4c62-9844-c797dea40504))
     (pin "4" (uuid da880c20-2343-4a6f-ba54-5af67e06b21d))
     (instances
-      (project "Encoder_Bus"
+      (project "BusChain"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
           (reference "J15") (unit 1)
         )
@@ -1775,7 +1775,7 @@
     )
     (pin "1" (uuid cf434e6e-055b-45a6-8003-789901d6253a))
     (instances
-      (project "Encoder_Bus"
+      (project "BusChain"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
           (reference "#PWR05") (unit 1)
         )
@@ -1800,7 +1800,7 @@
     )
     (pin "1" (uuid 8a59fa74-fc9c-4516-bdb9-3aadb9ee2422))
     (instances
-      (project "Encoder_Bus"
+      (project "BusChain"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
           (reference "#PWR018") (unit 1)
         )
@@ -1825,7 +1825,7 @@
     )
     (pin "1" (uuid 9e9b74b5-6c31-4a71-b98d-a9c6c85e2ea0))
     (instances
-      (project "Encoder_Bus"
+      (project "BusChain"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
           (reference "#PWR02") (unit 1)
         )
@@ -1853,7 +1853,7 @@
     (pin "3" (uuid 8c65bcbf-207d-40b7-9cc0-8d3309e84f86))
     (pin "4" (uuid 5bc8676a-f5a2-40a4-901d-5dbb2f9caba4))
     (instances
-      (project "Encoder_Bus"
+      (project "BusChain"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
           (reference "J17") (unit 1)
         )
@@ -1881,7 +1881,7 @@
     (pin "3" (uuid 1b4fe774-93f4-4cc0-95dc-21849c461536))
     (pin "4" (uuid 42187ca7-e263-43fc-b181-4ea43b6bfd8b))
     (instances
-      (project "Encoder_Bus"
+      (project "BusChain"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
           (reference "J3") (unit 1)
         )
@@ -1906,7 +1906,7 @@
     )
     (pin "1" (uuid ef6e7b95-4d2f-4b72-b0a0-ea8bcf93447f))
     (instances
-      (project "Encoder_Bus"
+      (project "BusChain"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
           (reference "#FLG02") (unit 1)
         )
@@ -1923,7 +1923,7 @@
     (property "Value" "Bonn_01x07" (at 67.945 92.71 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical" (at 65.405 90.805 0)
+    (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x07_P2.54mm_Horizontal" (at 65.405 90.805 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 65.405 90.805 0)
@@ -1937,7 +1937,7 @@
     (pin "6" (uuid 6582cc80-377a-4380-bebe-7ef778a1ff1a))
     (pin "7" (uuid aabca86c-ebce-4f97-b5e7-ad6bbdf53681))
     (instances
-      (project "Encoder_Bus"
+      (project "BusChain"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
           (reference "J1") (unit 1)
         )
@@ -1962,7 +1962,7 @@
     )
     (pin "1" (uuid 0838ae93-3062-4f1b-bc67-a3bcc53651d8))
     (instances
-      (project "Encoder_Bus"
+      (project "BusChain"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
           (reference "#PWR015") (unit 1)
         )
@@ -1987,7 +1987,7 @@
     )
     (pin "1" (uuid ecdb7c3f-80d9-4208-9521-d2a6e10ba5fb))
     (instances
-      (project "Encoder_Bus"
+      (project "BusChain"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
           (reference "#PWR025") (unit 1)
         )
@@ -2012,7 +2012,7 @@
     )
     (pin "1" (uuid 66191de0-aabd-43f2-b545-a978488d5600))
     (instances
-      (project "Encoder_Bus"
+      (project "BusChain"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
           (reference "#PWR023") (unit 1)
         )
@@ -2037,7 +2037,7 @@
     )
     (pin "1" (uuid 1f2a7790-ff72-4acc-b609-37c4a82d42d6))
     (instances
-      (project "Encoder_Bus"
+      (project "BusChain"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
           (reference "#PWR08") (unit 1)
         )
@@ -2068,7 +2068,7 @@
           (reference "R98") (unit 1)
         )
       )
-      (project "Encoder_Bus"
+      (project "BusChain"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
           (reference "R3") (unit 1)
         )
@@ -2116,7 +2116,7 @@
     (pin "8" (uuid 320b2e8f-800c-4177-a8d3-7102257dcba2))
     (pin "9" (uuid b43ca5cb-b8df-4716-a41f-9f619b587cbc))
     (instances
-      (project "Encoder_Bus"
+      (project "BusChain"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
           (reference "U2") (unit 1)
         )
@@ -2141,7 +2141,7 @@
     )
     (pin "1" (uuid 75c1d228-5479-4128-8574-69d08badced9))
     (instances
-      (project "Encoder_Bus"
+      (project "BusChain"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
           (reference "#PWR04") (unit 1)
         )
@@ -2169,7 +2169,7 @@
     (pin "3" (uuid 36f6ddc2-296e-4fc6-98a2-a3cfc857c663))
     (pin "4" (uuid 5030eced-2a32-4f87-aa06-33e05bc64159))
     (instances
-      (project "Encoder_Bus"
+      (project "BusChain"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
           (reference "J5") (unit 1)
         )
@@ -2194,7 +2194,7 @@
     )
     (pin "1" (uuid 52aaf920-2ec1-48d0-8957-d2cc6990d628))
     (instances
-      (project "Encoder_Bus"
+      (project "BusChain"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
           (reference "#PWR019") (unit 1)
         )
@@ -2219,7 +2219,7 @@
     )
     (pin "1" (uuid b4c6d6fb-9f14-4079-ba22-476849dcc5be))
     (instances
-      (project "Encoder_Bus"
+      (project "BusChain"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
           (reference "#FLG01") (unit 1)
         )
@@ -2247,7 +2247,7 @@
     (pin "3" (uuid d0e51beb-b69d-4693-b827-d5aa78d57564))
     (pin "4" (uuid c0734a61-9b82-42eb-b0b9-8d62e7d46337))
     (instances
-      (project "Encoder_Bus"
+      (project "BusChain"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
           (reference "J9") (unit 1)
         )
@@ -2272,7 +2272,7 @@
     )
     (pin "1" (uuid ef72912f-0b75-4dc9-af5f-e1585f917bae))
     (instances
-      (project "Encoder_Bus"
+      (project "BusChain"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
           (reference "#PWR011") (unit 1)
         )
@@ -2300,7 +2300,7 @@
     (pin "3" (uuid 867243a2-c857-455e-9ce2-35740ee665e6))
     (pin "4" (uuid 05cd3b14-4d2b-4572-818b-5d7f90a5f931))
     (instances
-      (project "Encoder_Bus"
+      (project "BusChain"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
           (reference "J16") (unit 1)
         )
@@ -2328,7 +2328,7 @@
     (pin "3" (uuid e5fc9a16-07c5-4742-a738-a8384fec60dd))
     (pin "4" (uuid 6fb2c23f-be88-4c22-8fa4-a1dbc7b99060))
     (instances
-      (project "Encoder_Bus"
+      (project "BusChain"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
           (reference "J12") (unit 1)
         )
@@ -2353,7 +2353,7 @@
     )
     (pin "1" (uuid bc3dc255-ef72-4b97-adf3-ff6836ce3fae))
     (instances
-      (project "Encoder_Bus"
+      (project "BusChain"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
           (reference "#PWR014") (unit 1)
         )
@@ -2381,7 +2381,7 @@
     (pin "3" (uuid ace672c4-2e2a-4e13-ad8c-176149c4948e))
     (pin "4" (uuid 86345890-1467-4d07-b48b-4fe36206ff50))
     (instances
-      (project "Encoder_Bus"
+      (project "BusChain"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
           (reference "J14") (unit 1)
         )
@@ -2406,7 +2406,7 @@
     )
     (pin "1" (uuid 7b34f50a-96fa-489c-a7e6-73a59a54e86f))
     (instances
-      (project "Encoder_Bus"
+      (project "BusChain"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
           (reference "#PWR026") (unit 1)
         )
@@ -2434,7 +2434,7 @@
     (pin "3" (uuid e3a7b5c4-bdc2-4de6-89c5-0128ed756422))
     (pin "4" (uuid a79f7c38-f620-4213-954b-4d798737e760))
     (instances
-      (project "Encoder_Bus"
+      (project "BusChain"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
           (reference "J6") (unit 1)
         )
@@ -2459,7 +2459,7 @@
     )
     (pin "1" (uuid eeff0f8d-a76d-4ac9-8e14-82010494713a))
     (instances
-      (project "Encoder_Bus"
+      (project "BusChain"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
           (reference "#PWR020") (unit 1)
         )
@@ -2487,7 +2487,7 @@
     (pin "3" (uuid 0dda8ac9-f233-45e1-bcdb-7b6f05e940ba))
     (pin "4" (uuid a991dcfb-4808-4bb6-a1f9-f01644dca1fa))
     (instances
-      (project "Encoder_Bus"
+      (project "BusChain"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
           (reference "J2") (unit 1)
         )
@@ -2512,7 +2512,7 @@
     )
     (pin "1" (uuid 4365cf4b-28c8-4393-ab9e-8284fede92f7))
     (instances
-      (project "Encoder_Bus"
+      (project "BusChain"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
           (reference "#PWR06") (unit 1)
         )
@@ -2537,7 +2537,7 @@
     )
     (pin "1" (uuid a11510d5-93d9-4278-b18b-9005d88cf2ae))
     (instances
-      (project "Encoder_Bus"
+      (project "BusChain"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
           (reference "#PWR017") (unit 1)
         )
@@ -2565,7 +2565,7 @@
     (pin "3" (uuid 5a7db0ca-de5e-4a4e-b5c8-68c849be4717))
     (pin "4" (uuid dba783e1-42fa-4a21-a89d-9bc30f8e9a84))
     (instances
-      (project "Encoder_Bus"
+      (project "BusChain"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
           (reference "J10") (unit 1)
         )
@@ -2613,7 +2613,7 @@
           (reference "U6") (unit 1)
         )
       )
-      (project "Encoder_Bus"
+      (project "BusChain"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
           (reference "U1") (unit 1)
         )
@@ -2661,7 +2661,7 @@
     (pin "8" (uuid 506dff3d-6d6c-4f06-8656-e1f799d9ba45))
     (pin "9" (uuid 886b1892-fbb2-4b99-ab5b-46b0dcd74496))
     (instances
-      (project "Encoder_Bus"
+      (project "BusChain"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
           (reference "U3") (unit 1)
         )
@@ -2692,9 +2692,9 @@
           (reference "C4") (unit 1)
         )
       )
-      (project "Encoder_Bus"
+      (project "BusChain"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
-          (reference "B3") (unit 1)
+          (reference "C3") (unit 1)
         )
       )
     )
@@ -2717,7 +2717,7 @@
     )
     (pin "1" (uuid 1ebd2da8-c280-4c33-9465-0ceddac2d444))
     (instances
-      (project "Encoder_Bus"
+      (project "BusChain"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
           (reference "#PWR016") (unit 1)
         )
@@ -2742,7 +2742,7 @@
     )
     (pin "1" (uuid 45cc7e4e-f9a2-4434-b23d-93561331465b))
     (instances
-      (project "Encoder_Bus"
+      (project "BusChain"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
           (reference "#PWR022") (unit 1)
         )
@@ -2773,7 +2773,7 @@
           (reference "D2") (unit 1)
         )
       )
-      (project "Encoder_Bus"
+      (project "BusChain"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
           (reference "D2") (unit 1)
         )
@@ -2804,7 +2804,7 @@
           (reference "D3") (unit 1)
         )
       )
-      (project "Encoder_Bus"
+      (project "BusChain"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
           (reference "D3") (unit 1)
         )
@@ -2815,10 +2815,10 @@
   (symbol (lib_id "Device:C_Small") (at 140.335 31.75 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f0f001f1-9fc7-40cf-8672-f83c82895e54)
-    (property "Reference" "C4" (at 140.3413 26.035 90)
+    (property "Reference" "C4" (at 140.3413 26.67 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "0.1u" (at 140.3413 28.575 90)
+    (property "Value" "0.1u" (at 140.3413 29.21 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 140.335 31.75 0)
@@ -2835,9 +2835,9 @@
           (reference "C4") (unit 1)
         )
       )
-      (project "Encoder_Bus"
+      (project "BusChain"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
-          (reference "B2") (unit 1)
+          (reference "C2") (unit 1)
         )
       )
     )
@@ -2860,7 +2860,7 @@
     )
     (pin "1" (uuid ddb3ef11-7bac-4941-a1c1-6d3bbdcec50d))
     (instances
-      (project "Encoder_Bus"
+      (project "BusChain"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
           (reference "#PWR013") (unit 1)
         )
@@ -2885,7 +2885,7 @@
     )
     (pin "1" (uuid 98cbee1c-5b51-4df2-b602-2e3ce8a7fc2d))
     (instances
-      (project "Encoder_Bus"
+      (project "BusChain"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
           (reference "#PWR021") (unit 1)
         )
@@ -2922,7 +2922,7 @@
           (reference "R66") (unit 1)
         )
       )
-      (project "Encoder_Bus"
+      (project "BusChain"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
           (reference "R2") (unit 1)
         )
@@ -2953,7 +2953,7 @@
           (reference "R100") (unit 1)
         )
       )
-      (project "Encoder_Bus"
+      (project "BusChain"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
           (reference "R5") (unit 1)
         )
