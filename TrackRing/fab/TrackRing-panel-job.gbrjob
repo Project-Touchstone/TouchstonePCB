@@ -5,17 +5,17 @@
       "Application": "Pcbnew",
       "Version": "7.0.1"
     },
-    "CreationDate": "2024-10-11T19:22:07-04:00"
+    "CreationDate": "2024-10-11T23:35:26-04:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "TrackRing",
-      "GUID": "54726163-6b52-4696-9e67-2e6b69636164",
+      "Name": "TrackRing-panel",
+      "GUID": "54726163-6b52-4696-9e67-2d70616e656c",
       "Revision": "rev?"
     },
     "Size": {
-      "X": 12.1,
-      "Y": 15.1
+      "X": 68.1,
+      "Y": 83.1
     },
     "LayerNumber": 2,
     "BoardThickness": 1.6,
@@ -34,47 +34,47 @@
   ],
   "FilesAttributes": [
     {
-      "Path": "TrackRing-F_Cu.gbr",
+      "Path": "TrackRing-panel-F_Cu.gbr",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "TrackRing-B_Cu.gbr",
+      "Path": "TrackRing-panel-B_Cu.gbr",
       "FileFunction": "Copper,L2,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "TrackRing-F_Paste.gbr",
+      "Path": "TrackRing-panel-F_Paste.gbr",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "TrackRing-B_Paste.gbr",
+      "Path": "TrackRing-panel-B_Paste.gbr",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "TrackRing-F_Silkscreen.gbr",
+      "Path": "TrackRing-panel-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "TrackRing-B_Silkscreen.gbr",
+      "Path": "TrackRing-panel-B_Silkscreen.gbr",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "TrackRing-F_Mask.gbr",
+      "Path": "TrackRing-panel-F_Mask.gbr",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "TrackRing-B_Mask.gbr",
+      "Path": "TrackRing-panel-B_Mask.gbr",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "TrackRing-Edge_Cuts.gbr",
+      "Path": "TrackRing-panel-Edge_Cuts.gbr",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }
