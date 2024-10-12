@@ -45,7 +45,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.25
         }
       },
       "diff_pair_dimensions": [],
@@ -392,7 +392,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Encoder_Bus.kicad_pro",
+    "filename": "BusChain.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -428,7 +428,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "BusChain.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""

@@ -117,6 +117,89 @@
         )
       )
     )
+    (symbol "Device:LED" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "D" (at 0 2.54 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "LED" (at 0 -2.54 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "LED diode" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Light emitting diode" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "LED_0_1"
+        (polyline
+          (pts
+            (xy -1.27 -1.27)
+            (xy -1.27 1.27)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.27 0)
+            (xy 1.27 0)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.27 -1.27)
+            (xy 1.27 1.27)
+            (xy -1.27 0)
+            (xy 1.27 -1.27)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -3.048 -0.762)
+            (xy -4.572 -2.286)
+            (xy -3.81 -2.286)
+            (xy -4.572 -2.286)
+            (xy -4.572 -1.524)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.778 -0.762)
+            (xy -3.302 -2.286)
+            (xy -2.54 -2.286)
+            (xy -3.302 -2.286)
+            (xy -3.302 -1.524)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "LED_1_1"
+        (pin passive line (at -3.81 0 0) (length 2.54)
+          (name "K" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 3.81 0 180) (length 2.54)
+          (name "A" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "Device:R" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 2.032 0 90)
         (effects (font (size 1.27 1.27)))
@@ -331,6 +414,10 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 5201db6b-6554-4b50-98fa-d4c45d3fd123)
   )
+  (label "VCC" (at 38.735 55.88 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid 5d03af9c-76d5-482e-98b4-5f35ce688f36)
+  )
   (label "SCL" (at 49.53 46.99 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 621f0fb7-e0a2-4f05-b4f2-25fb56702a32)
@@ -342,6 +429,36 @@
   (label "VCC" (at 27.305 33.655 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid d52ca345-e5d0-4a4b-aaa9-6d4594cd76df)
+  )
+
+  (symbol (lib_id "power:GND") (at 53.975 55.88 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 5827d6c5-3f90-43e7-b69f-60cd8d534eaf)
+    (property "Reference" "#PWR04" (at 60.325 55.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 57.785 56.515 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "" (at 53.975 55.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 53.975 55.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 9ffc8df4-11d0-426c-9647-e896f2d578f8))
+    (instances
+      (project "TrackRing"
+        (path "/1a22a45d-0453-4b94-9e49-dc92af99da64"
+          (reference "#PWR04") (unit 1)
+        )
+      )
+      (project "BusChain"
+        (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
+          (reference "#PWR026") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "Device:R") (at 59.055 33.655 0) (unit 1)
@@ -362,7 +479,7 @@
     (pin "1" (uuid f67fd18d-8f15-479c-9dee-874cf2526bf1))
     (pin "2" (uuid 0c7f2b95-9eef-4633-aa6c-f022a9515ca0))
     (instances
-      (project "Magnetic_Encoder"
+      (project "TrackRing"
         (path "/1a22a45d-0453-4b94-9e49-dc92af99da64"
           (reference "R3") (unit 1)
         )
@@ -392,9 +509,45 @@
     (pin "5" (uuid 7addf1b8-ed2b-4e62-b757-cdd0dd76921e))
     (pin "6" (uuid 89ec5d5c-2a9d-4707-a84c-7f7c81ff1738))
     (instances
-      (project "Magnetic_Encoder"
+      (project "TrackRing"
         (path "/1a22a45d-0453-4b94-9e49-dc92af99da64"
           (reference "U1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R") (at 50.165 55.88 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 7a1ba605-6324-46d9-b52e-a64f9a5fe2e7)
+    (property "Reference" "R98" (at 50.165 51.435 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "500" (at 50.165 53.975 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 50.165 57.658 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 50.165 55.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid f1a40f8d-fc70-4ebf-b9fb-7b2063ce8dbe))
+    (pin "2" (uuid 605c1a15-da37-4d72-a138-97d1f99220fa))
+    (instances
+      (project "PEST_Driver"
+        (path "/1312aa0a-e5d3-4b8d-ac4b-b6abdfb7d180"
+          (reference "R98") (unit 1)
+        )
+      )
+      (project "TrackRing"
+        (path "/1a22a45d-0453-4b94-9e49-dc92af99da64"
+          (reference "R5") (unit 1)
+        )
+      )
+      (project "BusChain"
+        (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
+          (reference "R3") (unit 1)
         )
       )
     )
@@ -417,7 +570,7 @@
     )
     (pin "1" (uuid 67d46b6d-5a36-4979-aae8-887b384731e6))
     (instances
-      (project "Magnetic_Encoder"
+      (project "TrackRing"
         (path "/1a22a45d-0453-4b94-9e49-dc92af99da64"
           (reference "#PWR03") (unit 1)
         )
@@ -443,7 +596,7 @@
     (pin "1" (uuid d9d5afbd-31cd-48f1-944f-4904b8831fd7))
     (pin "2" (uuid ed0d89bc-93eb-4e50-b159-80310464b77f))
     (instances
-      (project "Magnetic_Encoder"
+      (project "TrackRing"
         (path "/1a22a45d-0453-4b94-9e49-dc92af99da64"
           (reference "R2") (unit 1)
         )
@@ -468,7 +621,7 @@
     )
     (pin "1" (uuid cdba49e2-a7d4-47ed-83fa-d5df08c6e817))
     (instances
-      (project "Magnetic_Encoder"
+      (project "TrackRing"
         (path "/1a22a45d-0453-4b94-9e49-dc92af99da64"
           (reference "#PWR01") (unit 1)
         )
@@ -494,7 +647,7 @@
     (pin "1" (uuid 479e0aa8-a8bc-465d-a5e3-e23dfb6a45c1))
     (pin "2" (uuid b64f8bc9-a8e6-4512-a7bf-4ed8bef707e7))
     (instances
-      (project "Magnetic_Encoder"
+      (project "TrackRing"
         (path "/1a22a45d-0453-4b94-9e49-dc92af99da64"
           (reference "R1") (unit 1)
         )
@@ -520,7 +673,7 @@
     (pin "1" (uuid e58c0dc1-04c3-4818-a5cf-e410ed3fd5a9))
     (pin "2" (uuid a10f9bc1-f324-41eb-a41d-a95216433392))
     (instances
-      (project "Magnetic_Encoder"
+      (project "TrackRing"
         (path "/1a22a45d-0453-4b94-9e49-dc92af99da64"
           (reference "R4") (unit 1)
         )
@@ -548,9 +701,45 @@
     (pin "3" (uuid 8016fab8-aacc-4e96-811f-b2cafc5b20f4))
     (pin "4" (uuid f76c435b-cc98-495c-aca1-01abe993dd68))
     (instances
-      (project "Magnetic_Encoder"
+      (project "TrackRing"
         (path "/1a22a45d-0453-4b94-9e49-dc92af99da64"
           (reference "J1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:LED") (at 42.545 55.88 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid fbcd86f3-fa3d-4d12-ba0a-835f6b3ed98d)
+    (property "Reference" "D1" (at 44.1325 49.53 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "LED" (at 44.1325 52.07 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "LED_SMD:LED_0603_1608Metric" (at 42.545 55.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 42.545 55.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid ba2f0dd0-af00-4600-a79b-38ef6bf3f279))
+    (pin "2" (uuid ed8530b7-86a1-4c7c-b85b-b333680baebe))
+    (instances
+      (project "PEST_Driver"
+        (path "/1312aa0a-e5d3-4b8d-ac4b-b6abdfb7d180"
+          (reference "D1") (unit 1)
+        )
+      )
+      (project "TrackRing"
+        (path "/1a22a45d-0453-4b94-9e49-dc92af99da64"
+          (reference "D1") (unit 1)
+        )
+      )
+      (project "BusChain"
+        (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
+          (reference "D1") (unit 1)
         )
       )
     )
@@ -574,7 +763,7 @@
     (pin "1" (uuid 304701d8-49d4-4219-9c61-0894d04a24be))
     (pin "2" (uuid dd488398-7525-4f40-bdab-b58b3d546461))
     (instances
-      (project "Magnetic_Encoder"
+      (project "TrackRing"
         (path "/1a22a45d-0453-4b94-9e49-dc92af99da64"
           (reference "C1") (unit 1)
         )
@@ -599,7 +788,7 @@
     )
     (pin "1" (uuid e539ee47-2375-4b65-818c-0c1e29b0d6b7))
     (instances
-      (project "Magnetic_Encoder"
+      (project "TrackRing"
         (path "/1a22a45d-0453-4b94-9e49-dc92af99da64"
           (reference "#PWR02") (unit 1)
         )

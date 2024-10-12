@@ -1,7 +1,7 @@
 (footprint "PEST_SMD" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (attr smd)
-  (fp_text reference "REF**" (at -2.5 -0.5 unlocked) (layer "F.SilkS")
+  (fp_text reference "REF**" (at 0.1 0 unlocked) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.1)))
     (tstamp 394925d5-2ce4-413c-9a4a-0c2a64b502cf)
   )
@@ -13,8 +13,57 @@
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp f854be6e-dc4f-44d5-85b4-ad783edef4cc)
   )
-  (pad "1" smd roundrect (at 0.3 -2.35) (size 2 0.375) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+  (fp_line (start -2.812163 -0.250029) (end -1.196767 -2.557054)
+    (stroke (width 0.1) (type solid)) (layer "F.SilkS") (tstamp ab48dde3-8751-42c4-964e-79ba4144ef31))
+  (fp_line (start -1.790469 2.557054) (end -2.812163 -0.250029)
+    (stroke (width 0.1) (type solid)) (layer "F.SilkS") (tstamp efbd63a9-5180-4132-979c-36cb6d17cc3c))
+  (fp_line (start -1.196767 -2.557054) (end 1.790469 -2.557054)
+    (stroke (width 0.1) (type solid)) (layer "F.SilkS") (tstamp d1737314-263e-46b7-ae0a-52b9d539afbb))
+  (fp_line (start 1.196767 2.557054) (end -1.790469 2.557054)
+    (stroke (width 0.1) (type solid)) (layer "F.SilkS") (tstamp ad808374-7401-4eb4-bb0e-3491d7064468))
+  (fp_line (start 1.790469 -2.557054) (end 2.812163 0.250029)
+    (stroke (width 0.1) (type solid)) (layer "F.SilkS") (tstamp fa53d568-2441-4513-85d0-57694e63bada))
+  (fp_line (start 2.812163 0.250029) (end 1.196767 2.557054)
+    (stroke (width 0.1) (type solid)) (layer "F.SilkS") (tstamp ecbcd4b2-6b46-4b1e-81a6-e1203da0e36a))
+  (fp_line (start -2.812163 -0.250029) (end -1.196767 -2.557054)
+    (stroke (width 0.1) (type solid)) (layer "F.CrtYd") (tstamp 7ed78760-9dfb-4ce6-927d-f27333fe3bec))
+  (fp_line (start -1.790469 2.557054) (end -2.812163 -0.250029)
+    (stroke (width 0.1) (type solid)) (layer "F.CrtYd") (tstamp e344ac78-0888-4efe-bd43-244ad5675153))
+  (fp_line (start -1.196767 -2.557054) (end 1.790469 -2.557054)
+    (stroke (width 0.1) (type solid)) (layer "F.CrtYd") (tstamp c18fbcef-c4ec-47c2-8ddc-f92b85d276fa))
+  (fp_line (start 1.196767 2.557054) (end -1.790469 2.557054)
+    (stroke (width 0.1) (type solid)) (layer "F.CrtYd") (tstamp 2d8e75c9-f5f4-441b-b3bf-821e40865f80))
+  (fp_line (start 1.790469 -2.557054) (end 2.812163 0.250029)
+    (stroke (width 0.1) (type solid)) (layer "F.CrtYd") (tstamp 8e1765bf-b21f-4aec-ae9c-aaaca6d31370))
+  (fp_line (start 2.812163 0.250029) (end 1.196767 2.557054)
+    (stroke (width 0.1) (type solid)) (layer "F.CrtYd") (tstamp 9c042a1f-ec6b-45c4-8125-10bc790c5fc8))
+  (pad "1" smd roundrect (at 0.3 -2.34) (size 2 0.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
     (thermal_bridge_angle 45) (tstamp a2170df9-dfbc-47b5-8aeb-0dfb47883476))
-  (pad "2" smd roundrect (at -0.3 2.35) (size 2 0.375) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+  (pad "2" smd roundrect (at -0.3 2.34) (size 2 0.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
     (thermal_bridge_angle 45) (tstamp df93d4ea-87bd-40e8-8ab9-2f087a06dff0))
+  (group "" (id e73bb130-29a6-4afb-920a-a163c591232d)
+    (members
+      ab48dde3-8751-42c4-964e-79ba4144ef31
+      ad808374-7401-4eb4-bb0e-3491d7064468
+      d1737314-263e-46b7-ae0a-52b9d539afbb
+      ecbcd4b2-6b46-4b1e-81a6-e1203da0e36a
+      efbd63a9-5180-4132-979c-36cb6d17cc3c
+      fa53d568-2441-4513-85d0-57694e63bada
+    )
+  )
+  (group "" (id 9a48721c-042a-493e-bee4-0826444ace28)
+    (members
+      2d8e75c9-f5f4-441b-b3bf-821e40865f80
+      7ed78760-9dfb-4ce6-927d-f27333fe3bec
+      8e1765bf-b21f-4aec-ae9c-aaaca6d31370
+      9c042a1f-ec6b-45c4-8125-10bc790c5fc8
+      c18fbcef-c4ec-47c2-8ddc-f92b85d276fa
+      e344ac78-0888-4efe-bd43-244ad5675153
+    )
+  )
+  (model "C:/Users/carso/OneDrive - Georgia Institute of Technology/Touchstone/TouchstonePCB/PEST/PEST.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 -55))
+  )
 )

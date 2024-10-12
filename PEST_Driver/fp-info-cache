@@ -1,4 +1,4 @@
-21591645069897411
+21598560729735587
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -88641,12 +88641,40 @@ test point THT pad
 1
 1
 Touchstone
-Bridge_Pad
+ES2A-L Diode
 
 
 0
-1
-1
+2
+2
+Touchstone
+Flex2Driver
+
+
+0
+7
+7
+Touchstone
+Mounting_Hole
+
+
+0
+0
+0
+Touchstone
+PEST_SMD
+
+
+0
+2
+2
+Touchstone
+PEST_Tile
+
+
+0
+2
+2
 Touchstone
 logo
 
