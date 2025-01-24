@@ -491,7 +491,6 @@
     )
   )
 
-
   (junction (at 92.075 37.465) (diameter 0) (color 0 0 0 0)
     (uuid 0a9a44ab-2fd3-44e3-800e-6b5a57d14771)
   )
@@ -701,7 +700,7 @@
     (pin "3" (uuid a237ca05-a84a-4add-861a-d0556756277d))
     (pin "4" (uuid 096eb7dd-42e5-45d4-a7ea-c958ffe771b8))
     (instances
-      (project "TrackRingA"
+      (project "TrackNode"
         (path "/1a22a45d-0453-4b94-9e49-dc92af99da64"
           (reference "J1") (unit 1)
         )
@@ -727,7 +726,7 @@
     (pin "1" (uuid a367f482-c709-43bf-b3b8-1fd2ddd57d87))
     (pin "2" (uuid 18302cf1-bfb2-4f88-9719-6201752e6c69))
     (instances
-      (project "TrackRingA"
+      (project "TrackNode"
         (path "/1a22a45d-0453-4b94-9e49-dc92af99da64"
           (reference "R7") (unit 1)
         )
@@ -752,7 +751,7 @@
     )
     (pin "1" (uuid 8d04d9b1-8afb-427a-959b-0b510cdcbc30))
     (instances
-      (project "TrackRingA"
+      (project "TrackNode"
         (path "/1a22a45d-0453-4b94-9e49-dc92af99da64"
           (reference "#PWR07") (unit 1)
         )
@@ -778,7 +777,7 @@
     (pin "1" (uuid 8d7a946c-fbff-4a54-bf44-16d9e467a83f))
     (pin "2" (uuid b3dff8ab-5edb-48a6-b840-933f78987d24))
     (instances
-      (project "TrackRingA"
+      (project "TrackNode"
         (path "/1a22a45d-0453-4b94-9e49-dc92af99da64"
           (reference "R6") (unit 1)
         )
@@ -804,7 +803,7 @@
     (pin "1" (uuid 9e48a088-1dcc-41ac-b987-5e38644a10d9))
     (pin "2" (uuid 089db3c2-c1f8-4dbb-a7cd-4974d9074da9))
     (instances
-      (project "TrackRingA"
+      (project "TrackNode"
         (path "/1a22a45d-0453-4b94-9e49-dc92af99da64"
           (reference "C3") (unit 1)
         )
@@ -830,7 +829,7 @@
     (pin "1" (uuid a6cd1f09-5051-461e-b2c0-6b3a979eb19b))
     (pin "2" (uuid 92c0f512-3e3a-4c57-b118-1e070aa477ca))
     (instances
-      (project "TrackRingA"
+      (project "TrackNode"
         (path "/1a22a45d-0453-4b94-9e49-dc92af99da64"
           (reference "C2") (unit 1)
         )
@@ -855,7 +854,7 @@
     )
     (pin "1" (uuid 9ffc8df4-11d0-426c-9647-e896f2d578f8))
     (instances
-      (project "TrackRingA"
+      (project "TrackNode"
         (path "/1a22a45d-0453-4b94-9e49-dc92af99da64"
           (reference "#PWR04") (unit 1)
         )
@@ -886,7 +885,7 @@
     (pin "1" (uuid f67fd18d-8f15-479c-9dee-874cf2526bf1))
     (pin "2" (uuid 0c7f2b95-9eef-4633-aa6c-f022a9515ca0))
     (instances
-      (project "TrackRingA"
+      (project "TrackNode"
         (path "/1a22a45d-0453-4b94-9e49-dc92af99da64"
           (reference "R3") (unit 1)
         )
@@ -916,7 +915,7 @@
     (pin "5" (uuid 7addf1b8-ed2b-4e62-b757-cdd0dd76921e))
     (pin "6" (uuid 89ec5d5c-2a9d-4707-a84c-7f7c81ff1738))
     (instances
-      (project "TrackRingA"
+      (project "TrackNode"
         (path "/1a22a45d-0453-4b94-9e49-dc92af99da64"
           (reference "U1") (unit 1)
         )
@@ -941,7 +940,7 @@
     )
     (pin "1" (uuid b06f9832-86c0-46a8-8117-f332e660d514))
     (instances
-      (project "TrackRingA"
+      (project "TrackNode"
         (path "/1a22a45d-0453-4b94-9e49-dc92af99da64"
           (reference "#FLG01") (unit 1)
         )
@@ -972,7 +971,7 @@
           (reference "R98") (unit 1)
         )
       )
-      (project "TrackRingA"
+      (project "TrackNode"
         (path "/1a22a45d-0453-4b94-9e49-dc92af99da64"
           (reference "R5") (unit 1)
         )
@@ -1002,7 +1001,7 @@
     )
     (pin "1" (uuid 67d46b6d-5a36-4979-aae8-887b384731e6))
     (instances
-      (project "TrackRingA"
+      (project "TrackNode"
         (path "/1a22a45d-0453-4b94-9e49-dc92af99da64"
           (reference "#PWR03") (unit 1)
         )
@@ -1028,7 +1027,7 @@
     (pin "1" (uuid d9d5afbd-31cd-48f1-944f-4904b8831fd7))
     (pin "2" (uuid ed0d89bc-93eb-4e50-b159-80310464b77f))
     (instances
-      (project "TrackRingA"
+      (project "TrackNode"
         (path "/1a22a45d-0453-4b94-9e49-dc92af99da64"
           (reference "R2") (unit 1)
         )
@@ -1053,7 +1052,7 @@
     )
     (pin "1" (uuid cdba49e2-a7d4-47ed-83fa-d5df08c6e817))
     (instances
-      (project "TrackRingA"
+      (project "TrackNode"
         (path "/1a22a45d-0453-4b94-9e49-dc92af99da64"
           (reference "#PWR01") (unit 1)
         )
@@ -1078,7 +1077,7 @@
     )
     (pin "1" (uuid f47fcc49-5488-4510-b719-61ded473327c))
     (instances
-      (project "TrackRingA"
+      (project "TrackNode"
         (path "/1a22a45d-0453-4b94-9e49-dc92af99da64"
           (reference "#FLG02") (unit 1)
         )
@@ -1104,7 +1103,7 @@
     (pin "1" (uuid ab42d0f6-3167-4a82-b036-3272f6ee2ae6))
     (pin "2" (uuid 724470f4-3050-4e05-9c59-48ed6aa3c09f))
     (instances
-      (project "TrackRingA"
+      (project "TrackNode"
         (path "/1a22a45d-0453-4b94-9e49-dc92af99da64"
           (reference "J2") (unit 1)
         )
@@ -1129,7 +1128,7 @@
     )
     (pin "1" (uuid d69a4fd9-9cb0-4ac6-9f5b-2a337c43da3e))
     (instances
-      (project "TrackRingA"
+      (project "TrackNode"
         (path "/1a22a45d-0453-4b94-9e49-dc92af99da64"
           (reference "#PWR06") (unit 1)
         )
@@ -1155,7 +1154,7 @@
     (pin "1" (uuid 479e0aa8-a8bc-465d-a5e3-e23dfb6a45c1))
     (pin "2" (uuid b64f8bc9-a8e6-4512-a7bf-4ed8bef707e7))
     (instances
-      (project "TrackRingA"
+      (project "TrackNode"
         (path "/1a22a45d-0453-4b94-9e49-dc92af99da64"
           (reference "R1") (unit 1)
         )
@@ -1181,7 +1180,7 @@
     (pin "1" (uuid e58c0dc1-04c3-4818-a5cf-e410ed3fd5a9))
     (pin "2" (uuid a10f9bc1-f324-41eb-a41d-a95216433392))
     (instances
-      (project "TrackRingA"
+      (project "TrackNode"
         (path "/1a22a45d-0453-4b94-9e49-dc92af99da64"
           (reference "R4") (unit 1)
         )
@@ -1217,7 +1216,7 @@
     (pin "8" (uuid 66a4ec05-1625-47c6-90e2-1490d4396f49))
     (pin "9" (uuid 6b5fb5a5-fbdf-43bc-a9af-04fe947df8a8))
     (instances
-      (project "TrackRingA"
+      (project "TrackNode"
         (path "/1a22a45d-0453-4b94-9e49-dc92af99da64"
           (reference "U2") (unit 1)
         )
@@ -1248,7 +1247,7 @@
           (reference "D1") (unit 1)
         )
       )
-      (project "TrackRingA"
+      (project "TrackNode"
         (path "/1a22a45d-0453-4b94-9e49-dc92af99da64"
           (reference "D1") (unit 1)
         )
@@ -1278,7 +1277,7 @@
     )
     (pin "1" (uuid fc08aa69-2cc3-4bf9-9b54-69bcf8afcb7c))
     (instances
-      (project "TrackRingA"
+      (project "TrackNode"
         (path "/1a22a45d-0453-4b94-9e49-dc92af99da64"
           (reference "#PWR05") (unit 1)
         )
@@ -1309,7 +1308,7 @@
     (pin "1" (uuid 304701d8-49d4-4219-9c61-0894d04a24be))
     (pin "2" (uuid dd488398-7525-4f40-bdab-b58b3d546461))
     (instances
-      (project "TrackRingA"
+      (project "TrackNode"
         (path "/1a22a45d-0453-4b94-9e49-dc92af99da64"
           (reference "C1") (unit 1)
         )
@@ -1334,7 +1333,7 @@
     )
     (pin "1" (uuid e539ee47-2375-4b65-818c-0c1e29b0d6b7))
     (instances
-      (project "TrackRingA"
+      (project "TrackNode"
         (path "/1a22a45d-0453-4b94-9e49-dc92af99da64"
           (reference "#PWR02") (unit 1)
         )

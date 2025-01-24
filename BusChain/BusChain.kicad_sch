@@ -661,10 +661,6 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 0b52898b-434e-42b2-a44e-dad76d5a0472)
   )
-  (label "SCL" (at 86.36 142.875 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 1437012b-5076-409f-a346-b5a6ab0b575f)
-  )
   (label "SD7" (at 177.165 141.605 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 14e188ea-7dec-468a-bc92-6bd17540d7e6)
@@ -886,37 +882,6 @@
     (uuid fd639e4b-bbed-49cd-a483-696e3f68abb7)
   )
 
-  (symbol (lib_id "Device:R") (at 97.79 142.875 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 0429de53-7da8-4186-baf0-bb22ff30b57b)
-    (property "Reference" "R99" (at 97.79 138.43 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "500" (at 97.79 140.97 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 97.79 144.653 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 97.79 142.875 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 998c5b75-a96f-43cd-9db7-2d18cbb9560a))
-    (pin "2" (uuid bd46c54d-f6fc-490b-bfc2-a6ca769e963f))
-    (instances
-      (project "PEST_Driver"
-        (path "/1312aa0a-e5d3-4b8d-ac4b-b6abdfb7d180"
-          (reference "R99") (unit 1)
-        )
-      )
-      (project "BusChain"
-        (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
-          (reference "R4") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "power:GND") (at 147.955 136.525 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 08a6c775-012f-4905-be4a-4170d45833de)
@@ -962,31 +927,6 @@
       (project "BusChain"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
           (reference "#PWR018") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 101.6 142.875 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 1301f65c-200e-4e0c-9602-fb8661712f5c)
-    (property "Reference" "#PWR06" (at 107.95 142.875 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 105.41 143.51 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "" (at 101.6 142.875 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 101.6 142.875 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 530f45fa-0017-4dbc-bd77-b972b61abe6a))
-    (instances
-      (project "BusChain"
-        (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
-          (reference "#PWR06") (unit 1)
         )
       )
     )
@@ -1993,37 +1933,6 @@
       (project "BusChain"
         (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
           (reference "#PWR04") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:LED") (at 90.17 142.875 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid e6a77fe5-d569-42f8-816a-f0550db98fae)
-    (property "Reference" "D2" (at 91.7575 136.525 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "LED" (at 91.7575 139.065 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "LED_SMD:LED_0603_1608Metric" (at 90.17 142.875 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 90.17 142.875 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid b380c055-36bd-4322-89df-2b84beba3198))
-    (pin "2" (uuid aa37d019-8ad3-4d2c-9cb7-9e46b2a9458f))
-    (instances
-      (project "PEST_Driver"
-        (path "/1312aa0a-e5d3-4b8d-ac4b-b6abdfb7d180"
-          (reference "D2") (unit 1)
-        )
-      )
-      (project "BusChain"
-        (path "/a3c96221-c538-4784-bbfe-f272329e4c12"
-          (reference "D2") (unit 1)
         )
       )
     )
