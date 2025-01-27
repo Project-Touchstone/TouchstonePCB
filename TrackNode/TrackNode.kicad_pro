@@ -405,7 +405,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "TrackRing.kicad_pro",
+    "filename": "TrackNode.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -441,7 +441,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "TrackRing.step",
+      "step": "TrackNode.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
