@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Touchstone")(type "KiCad")(uri "C:/Users/carso/Documents/GitHub/Project-Touchstone/TouchstonePCB/Touchstone.pretty")(options "")(descr ""))
+)
