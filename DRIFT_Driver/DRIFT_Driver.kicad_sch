@@ -4694,6 +4694,12 @@
 		(uuid "24d87fd9-3c35-485e-ab8a-5648706bf3b9")
 	)
 	(junction
+		(at 252.73 24.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2b309942-2cf0-456d-bb3f-4c70de9cf7db")
+	)
+	(junction
 		(at 77.47 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4782,6 +4788,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6ef803ae-11da-4e98-b530-fa62279ab52c")
+	)
+	(junction
+		(at 224.79 24.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "70ae65e2-444b-4241-8f85-85e7c42dc9d6")
 	)
 	(junction
 		(at 59.69 157.48)
@@ -6333,7 +6345,29 @@
 	)
 	(global_label "VMOT"
 		(shape input)
-		(at 236.22 21.59 180)
+		(at 252.73 21.59 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b1c151ae-5923-4116-a1c0-9df3a77ba663")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 244.9067 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VMOT"
+		(shape input)
+		(at 224.79 21.59 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6343,7 +6377,7 @@
 		)
 		(uuid "e56a4fd0-c575-417d-b13d-4b163600b980")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 228.3967 21.59 0)
+			(at 216.9667 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6430,7 +6464,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "06251a8a-82ce-47c1-982f-2f18758412d9")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR019"
 			(at 228.6 76.2 0)
 			(effects
 				(font
@@ -6481,7 +6515,7 @@
 		(instances
 			(project ""
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7"
-					(reference "#PWR018")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -6497,7 +6531,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c284f8b-612e-47c1-b85c-af423243699c")
-		(property "Reference" "J2"
+		(property "Reference" "J3"
 			(at 232.41 48.2599 0)
 			(effects
 				(font
@@ -6563,7 +6597,7 @@
 		(instances
 			(project ""
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7"
-					(reference "J2")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -6579,7 +6613,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0cab0184-6060-4739-97d3-b3cbd94472a1")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR013"
 			(at 256.54 43.18 0)
 			(effects
 				(font
@@ -6630,7 +6664,7 @@
 		(instances
 			(project "DRIFT_Driver"
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7"
-					(reference "#PWR012")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -6843,6 +6877,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 252.73 21.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "31bec658-1409-49f8-b062-1fc7bd41c231")
+		(property "Reference" "#FLG02"
+			(at 252.73 19.685 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 252.73 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 252.73 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 252.73 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 252.73 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c3ca7efe-4283-4d6c-9330-c3c802ad9efd")
+		)
+		(instances
+			(project "DRIFT_Driver"
+				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
 		(at 229.87 95.25 0)
 		(unit 1)
@@ -6852,7 +6952,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "336d9940-1e27-47b8-87f3-ebb3ef920288")
-		(property "Reference" "J6"
+		(property "Reference" "J7"
 			(at 232.41 93.9799 0)
 			(effects
 				(font
@@ -6909,7 +7009,7 @@
 		(instances
 			(project ""
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7"
-					(reference "J6")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -6926,7 +7026,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3bd0cde4-5ed6-4806-9df8-e2cf9dbcba8c")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR031"
 			(at 78.74 160.02 0)
 			(effects
 				(font
@@ -6976,7 +7076,7 @@
 		(instances
 			(project ""
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7"
-					(reference "#PWR030")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -7061,7 +7161,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f9a31fd-3205-461e-b63b-df0503c8a4e4")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR022"
 			(at 246.38 78.74 0)
 			(effects
 				(font
@@ -7112,7 +7212,7 @@
 		(instances
 			(project "DRIFT_Driver"
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7"
-					(reference "#PWR021")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -7128,7 +7228,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "41e50e69-46c1-4282-be1a-a54f766d9617")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR017"
 			(at 224.79 59.69 0)
 			(effects
 				(font
@@ -7178,7 +7278,7 @@
 		(instances
 			(project ""
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7"
-					(reference "#PWR016")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -7195,7 +7295,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "44c1d472-481d-477f-b4e3-cd73b70aee6b")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR023"
 			(at 81.28 99.06 0)
 			(effects
 				(font
@@ -7245,7 +7345,73 @@
 		(instances
 			(project "DRIFT_Driver"
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7"
-					(reference "#PWR022")
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 224.79 21.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45fba626-a77b-4e85-8332-25a8131634d9")
+		(property "Reference" "#FLG01"
+			(at 224.79 19.685 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 224.79 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 224.79 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 224.79 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d13c2efe-3c30-4034-8a23-1c9a9af592fa")
+		)
+		(instances
+			(project ""
+				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7"
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -7396,7 +7562,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4e7f93aa-9ab5-4fd5-bfac-47f285d0969c")
-		(property "Reference" "#FLG02"
+		(property "Reference" "#FLG06"
 			(at 224.79 43.815 0)
 			(effects
 				(font
@@ -7446,7 +7612,7 @@
 		(instances
 			(project "DRIFT_Driver"
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7"
-					(reference "#FLG02")
+					(reference "#FLG06")
 					(unit 1)
 				)
 			)
@@ -7462,7 +7628,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "519b01d5-c0a2-4ecf-8e3c-deae6de6c40f")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR012"
 			(at 228.6 43.18 0)
 			(effects
 				(font
@@ -7513,7 +7679,7 @@
 		(instances
 			(project ""
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7"
-					(reference "#PWR011")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -7529,7 +7695,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "525e6d30-8c15-4dad-b4f0-927eb6a51981")
-		(property "Reference" "J8"
+		(property "Reference" "J9"
 			(at 39.37 139.7 0)
 			(effects
 				(font
@@ -7664,7 +7830,7 @@
 		(instances
 			(project ""
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7"
-					(reference "J8")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -7734,6 +7900,72 @@
 			(project "DRIFT_Driver"
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 252.73 24.13 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "544ab3e3-0bf5-49c8-8be9-1f38811a2d51")
+		(property "Reference" "#FLG04"
+			(at 252.73 26.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 252.73 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 252.73 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 252.73 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 252.73 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ca6c3224-eed9-4911-a4c2-014a0a5ac9fa")
+		)
+		(instances
+			(project "DRIFT_Driver"
+				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7"
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)
@@ -7843,7 +8075,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b077e8a-1ceb-4759-ab95-cb0a6627cd48")
-		(property "Reference" "#FLG01"
+		(property "Reference" "#FLG05"
 			(at 224.79 41.275 0)
 			(effects
 				(font
@@ -7893,7 +8125,7 @@
 		(instances
 			(project ""
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7"
-					(reference "#FLG01")
+					(reference "#FLG05")
 					(unit 1)
 				)
 			)
@@ -8018,7 +8250,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e08cf7f-55da-4587-bf04-5a576929c21c")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR029"
 			(at 165.1 151.13 0)
 			(effects
 				(font
@@ -8069,7 +8301,7 @@
 		(instances
 			(project "DRIFT_Driver"
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7"
-					(reference "#PWR028")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -8145,7 +8377,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 241.3 21.59 0)
+		(at 229.87 21.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8154,7 +8386,7 @@
 		(fields_autoplaced yes)
 		(uuid "63be0d23-c5d4-4326-9033-0124e019f9c4")
 		(property "Reference" "J1"
-			(at 243.84 21.5899 0)
+			(at 232.41 21.5899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8163,7 +8395,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 243.84 24.1299 0)
+			(at 232.41 24.1299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8172,7 +8404,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
-			(at 241.3 21.59 0)
+			(at 229.87 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8181,7 +8413,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 241.3 21.59 0)
+			(at 229.87 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8190,7 +8422,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 241.3 21.59 0)
+			(at 229.87 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8379,6 +8611,73 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 252.73 24.13 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "67cf2bc4-4b3a-48c3-8f70-cfa6c82f2c92")
+		(property "Reference" "#PWR04"
+			(at 246.38 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 248.92 24.1299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 252.73 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 252.73 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c5753424-a7b5-4bce-bad3-1db80c5dc98d")
+		)
+		(instances
+			(project "DRIFT_Driver"
+				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 252.73 45.72 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8387,7 +8686,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6cc83c90-2fe3-4c76-a560-827566b6d777")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR016"
 			(at 246.38 45.72 0)
 			(effects
 				(font
@@ -8438,7 +8737,77 @@
 		(instances
 			(project "DRIFT_Driver"
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7"
-					(reference "#PWR015")
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 257.81 21.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d4bc6df-8935-4a03-b244-7f10aee8eca0")
+		(property "Reference" "J2"
+			(at 260.35 21.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 260.35 24.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
+			(at 257.81 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 257.81 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 257.81 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ecdaf2e5-8179-43e3-b6ad-ca1401e54697")
+		)
+		(pin "2"
+			(uuid "f00a48ad-b43d-4206-b499-82275797a7ef")
+		)
+		(instances
+			(project "DRIFT_Driver"
+				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7"
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -8532,7 +8901,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e95408c-260a-49ec-b995-30e97d44e82a")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR033"
 			(at 101.6 180.34 0)
 			(effects
 				(font
@@ -8582,7 +8951,7 @@
 		(instances
 			(project "DRIFT_Driver"
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7"
-					(reference "#PWR032")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -8765,7 +9134,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "72542c78-337f-43b4-a686-d3f20c99afd4")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR09"
 			(at 41.91 34.29 0)
 			(effects
 				(font
@@ -8816,7 +9185,7 @@
 		(instances
 			(project "DRIFT_Driver"
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7"
-					(reference "#PWR08")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -8824,7 +9193,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 236.22 24.13 270)
+		(at 224.79 24.13 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8833,7 +9202,7 @@
 		(fields_autoplaced yes)
 		(uuid "8caebee3-c835-4e45-a6c8-53d9ff094b1d")
 		(property "Reference" "#PWR03"
-			(at 229.87 24.13 0)
+			(at 218.44 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8842,7 +9211,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 232.41 24.1299 90)
+			(at 220.98 24.1299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8851,7 +9220,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 236.22 24.13 0)
+			(at 224.79 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8860,7 +9229,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.22 24.13 0)
+			(at 224.79 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8869,7 +9238,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 236.22 24.13 0)
+			(at 224.79 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9063,7 +9432,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "984b9d2e-c823-4238-92f8-e1431e0e2fef")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR030"
 			(at 182.88 151.13 0)
 			(effects
 				(font
@@ -9114,7 +9483,7 @@
 		(instances
 			(project "DRIFT_Driver"
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7"
-					(reference "#PWR029")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -9131,7 +9500,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a287d66-ba11-48f5-a47d-04144c495c12")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR034"
 			(at 59.69 189.23 0)
 			(effects
 				(font
@@ -9181,7 +9550,7 @@
 		(instances
 			(project ""
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7"
-					(reference "#PWR033")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -9197,7 +9566,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9fa51333-c58b-4c4f-b4f4-04f998abca8b")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR020"
 			(at 256.54 76.2 0)
 			(effects
 				(font
@@ -9248,7 +9617,7 @@
 		(instances
 			(project "DRIFT_Driver"
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7"
-					(reference "#PWR019")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -9470,7 +9839,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a8946934-b93d-47f3-a3e7-9e20a1c97952")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR015"
 			(at 218.44 45.72 0)
 			(effects
 				(font
@@ -9521,7 +9890,7 @@
 		(instances
 			(project ""
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7"
-					(reference "#PWR014")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -9538,7 +9907,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac33a7c5-66ab-42e9-93a7-d3796ac9874b")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR05"
 			(at 127 29.21 0)
 			(effects
 				(font
@@ -9588,7 +9957,7 @@
 		(instances
 			(project "DRIFT_Driver"
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7"
-					(reference "#PWR04")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -9674,7 +10043,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "afd6f91c-4fc7-437e-bebd-16f5b5dc50c6")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR024"
 			(at 147.32 123.19 0)
 			(effects
 				(font
@@ -9725,7 +10094,7 @@
 		(instances
 			(project ""
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7"
-					(reference "#PWR023")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -9742,7 +10111,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b2893adf-d746-42bc-8563-2fb21490c1c2")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR032"
 			(at 87.63 180.34 0)
 			(effects
 				(font
@@ -9792,7 +10161,7 @@
 		(instances
 			(project "DRIFT_Driver"
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7"
-					(reference "#PWR031")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -9809,7 +10178,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3b994e9-6884-4ab0-9524-68e7003ae2e3")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR014"
 			(at 27.94 50.8 0)
 			(effects
 				(font
@@ -9859,7 +10228,7 @@
 		(instances
 			(project "DRIFT_Driver"
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7"
-					(reference "#PWR013")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -9875,7 +10244,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3fd4f47-ab82-4e9e-994b-92dc838df86f")
-		(property "Reference" "J4"
+		(property "Reference" "J5"
 			(at 232.41 78.7399 0)
 			(effects
 				(font
@@ -9935,7 +10304,7 @@
 		(instances
 			(project ""
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7"
-					(reference "J4")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -9951,7 +10320,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b4ee2b36-8f6d-4d43-8dba-1bc00ce8b597")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR021"
 			(at 218.44 78.74 0)
 			(effects
 				(font
@@ -10002,7 +10371,7 @@
 		(instances
 			(project "DRIFT_Driver"
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7"
-					(reference "#PWR020")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -10019,7 +10388,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb790831-dc51-4f39-aec6-cd2f850c6090")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR06"
 			(at 167.64 29.21 0)
 			(effects
 				(font
@@ -10069,7 +10438,7 @@
 		(instances
 			(project "DRIFT_Driver"
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7"
-					(reference "#PWR05")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -10180,7 +10549,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9129ade-0092-4054-81df-37b1d2a37e56")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR025"
 			(at 186.69 123.19 0)
 			(effects
 				(font
@@ -10231,7 +10600,7 @@
 		(instances
 			(project "DRIFT_Driver"
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7"
-					(reference "#PWR024")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -10344,7 +10713,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d0bac404-e716-40ee-ad9b-0417d6eceb4d")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR07"
 			(at 35.56 22.86 0)
 			(effects
 				(font
@@ -10394,7 +10763,7 @@
 		(instances
 			(project "DRIFT_Driver"
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7"
-					(reference "#PWR06")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -10410,7 +10779,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1f12b5c-023f-42ab-ad10-b70721bfa462")
-		(property "Reference" "J7"
+		(property "Reference" "J8"
 			(at 260.35 93.9799 0)
 			(effects
 				(font
@@ -10467,7 +10836,7 @@
 		(instances
 			(project "DRIFT_Driver"
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7"
-					(reference "J7")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -10484,7 +10853,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d296b571-b49f-4ac3-a4db-a66385b92a34")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR011"
 			(at 162.56 44.45 0)
 			(effects
 				(font
@@ -10534,7 +10903,7 @@
 		(instances
 			(project "DRIFT_Driver"
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7"
-					(reference "#PWR010")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -10550,7 +10919,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d48eecfc-1529-4c69-ae7c-410fc81051e5")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR028"
 			(at 92.71 147.32 0)
 			(effects
 				(font
@@ -10601,7 +10970,7 @@
 		(instances
 			(project ""
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7"
-					(reference "#PWR027")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -10618,7 +10987,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d6391949-f519-4fb8-9029-45e396b0f81c")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR010"
 			(at 121.92 44.45 0)
 			(effects
 				(font
@@ -10668,7 +11037,7 @@
 		(instances
 			(project ""
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7"
-					(reference "#PWR09")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -10684,7 +11053,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d6de9857-26b4-4720-8d3b-75b2d1b60a81")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR018"
 			(at 252.73 59.69 0)
 			(effects
 				(font
@@ -10734,7 +11103,7 @@
 		(instances
 			(project "DRIFT_Driver"
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7"
-					(reference "#PWR017")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -11030,7 +11399,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dd728cb6-747f-4d0c-823b-739ba3e35e3c")
-		(property "Reference" "J5"
+		(property "Reference" "J6"
 			(at 260.35 78.7399 0)
 			(effects
 				(font
@@ -11090,7 +11459,7 @@
 		(instances
 			(project "DRIFT_Driver"
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7"
-					(reference "J5")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -11106,7 +11475,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ddc32232-5c6f-403a-82b4-21a171eb0516")
-		(property "Reference" "J3"
+		(property "Reference" "J4"
 			(at 260.35 48.2599 0)
 			(effects
 				(font
@@ -11172,7 +11541,7 @@
 		(instances
 			(project "DRIFT_Driver"
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7"
-					(reference "J3")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -11189,7 +11558,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df348fc7-1ac3-4bb2-9c1c-84ff3b06c51c")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR08"
 			(at 27.94 35.56 0)
 			(effects
 				(font
@@ -11239,7 +11608,73 @@
 		(instances
 			(project "DRIFT_Driver"
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7"
-					(reference "#PWR07")
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 224.79 24.13 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e37996d7-4b3a-4dbb-a96b-ed1b50c34897")
+		(property "Reference" "#FLG03"
+			(at 224.79 26.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 224.79 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 224.79 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 224.79 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1a7b8de8-9afe-4ec2-93b4-3d4bdc59a6ad")
+		)
+		(instances
+			(project "DRIFT_Driver"
+				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7"
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -11579,7 +12014,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f1e16c54-738c-48aa-a177-a7ffdc2e8700")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR027"
 			(at 77.47 135.89 0)
 			(effects
 				(font
@@ -11629,7 +12064,7 @@
 		(instances
 			(project ""
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7"
-					(reference "#PWR026")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -11646,7 +12081,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f5ce727b-dbbe-4e15-bfb0-cc5ff87c9fa8")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR026"
 			(at 166.37 139.7 0)
 			(effects
 				(font
@@ -11696,7 +12131,7 @@
 		(instances
 			(project "DRIFT_Driver"
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7"
-					(reference "#PWR025")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
