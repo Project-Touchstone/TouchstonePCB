@@ -4910,8 +4910,24 @@
 		(uuid "f238f5b3-03b5-44c8-a133-782d784aa85c")
 	)
 	(no_connect
+		(at 19.05 160.02)
+		(uuid "0c244e16-36aa-40f6-831d-da26235a04a9")
+	)
+	(no_connect
+		(at 59.69 162.56)
+		(uuid "14f13a5c-bcf7-4e92-b7d3-f3121cfc68f6")
+	)
+	(no_connect
+		(at 81.28 59.69)
+		(uuid "23dd5b16-31c9-4d6c-9254-5ac6fce9e15e")
+	)
+	(no_connect
 		(at 48.26 62.23)
 		(uuid "621e7b75-dbeb-4f3c-8871-347858494042")
+	)
+	(no_connect
+		(at 81.28 62.23)
+		(uuid "ac6620ff-72b8-4538-b8c5-35a3015d0912")
 	)
 	(no_connect
 		(at 48.26 41.91)
@@ -5832,7 +5848,7 @@
 		(uuid "230694e6-a3d1-42d5-832d-a2fc1f0e27d7")
 	)
 	(label "SENSE1A"
-		(at 48.26 46.99 180)
+		(at 48.26 57.15 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5872,7 +5888,7 @@
 		(uuid "2f9b4263-01bf-4fd2-a0da-f94c75f2c153")
 	)
 	(label "SENSE1B"
-		(at 48.26 54.61 180)
+		(at 48.26 49.53 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6032,7 +6048,7 @@
 		(uuid "50144b0e-931c-4ab3-aa9e-a0ea35ffdad4")
 	)
 	(label "LED"
-		(at 158.75 161.29 180)
+		(at 161.29 161.29 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6152,7 +6168,7 @@
 		(uuid "64b8460d-7946-44e8-964d-593370134f39")
 	)
 	(label "SENSE2A"
-		(at 48.26 49.53 180)
+		(at 48.26 54.61 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6292,7 +6308,7 @@
 		(uuid "8db032ff-7a9d-45cb-aba0-754f241936c0")
 	)
 	(label "SENSE2B"
-		(at 48.26 57.15 180)
+		(at 48.26 46.99 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9021,7 +9037,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 72.39 154.178 90)
 			(effects
 				(font
@@ -9737,75 +9753,6 @@
 			(project "DRIFT_Driver"
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7"
 					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "+3.3V_1")
-		(lib_id "power:+3.3V")
-		(at 161.29 161.29 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "78357210-c486-4ebd-8d5c-a2ab1005946d")
-		(property "Reference" "#PWR018"
-			(at 165.1 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 157.48 161.2899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 161.29 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 161.29 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 161.29 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d4c6f7a2-5120-476d-9bc8-d236abc0dd7b")
-		)
-		(instances
-			(project "Hydra_Driver"
-				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7"
-					(reference "#PWR018")
 					(unit 1)
 				)
 			)
