@@ -1,0 +1,8 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "DRV8313RHHR")(type "KiCad")(uri "C:/Users/carso/Documents/GitHub/Project-Touchstone/TouchstonePCB/DRV8313RHHR.kicad_sym")(options "")(descr ""))
+  (lib (name "ESP32-S3-WROOM-1-N4")(type "KiCad")(uri "C:/Users/carso/Documents/GitHub/Project-Touchstone/TouchstonePCB/ESP32-S3-WROOM-1-N4.kicad_sym")(options "")(descr ""))
+  (lib (name "Touchstone")(type "KiCad")(uri "C:/Users/carso/Documents/GitHub/Project-Touchstone/TouchstonePCB/Touchstone.kicad_sym")(options "")(descr ""))
+  (lib (name "TacTile")(type "KiCad")(uri "C:/Users/carso/Documents/GitHub/Project-Touchstone/TouchstonePCB/TacTile.kicad_sym")(options "")(descr ""))
+  (lib (name "USB4105-GF-A")(type "KiCad")(uri "C:/Users/carso/Documents/GitHub/Project-Touchstone/TouchstonePCB/USB4105-GF-A.kicad_sym")(options "")(descr ""))
+)

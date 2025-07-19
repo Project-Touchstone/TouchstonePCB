@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 2,
     "active_layer_preset": "",
     "auto_track_width": false,
     "hidden_netclasses": [],
@@ -17,7 +17,7 @@
     },
     "selection_filter": {
       "dimensions": true,
-      "footprints": false,
+      "footprints": true,
       "graphics": true,
       "keepouts": true,
       "lockedItems": false,
@@ -35,15 +35,15 @@
       "grid",
       "footprints_front",
       "footprints_back",
-      "footprint_values",
       "footprint_references",
-      "tracks",
+      "drc_errors",
       "bitmaps",
       "pads",
       "zones",
+      "drc_warnings",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_0fffffff_ffffffff",
+    "visible_layers": "ffffffff_ffffffff_ffffffff_ffffffff",
     "zone_display_mode": 0
   },
   "git": {
@@ -52,7 +52,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "Hydra_Driver.kicad_prl",
+    "filename": "Hydra_Driver_Sheild.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
