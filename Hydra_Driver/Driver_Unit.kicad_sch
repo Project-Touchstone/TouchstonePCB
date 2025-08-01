@@ -2747,6 +2747,106 @@
 			(embedded_fonts no)
 		)
 	)
+	(text_box "6PWM logic"
+		(exclude_from_sim no)
+		(at 12.065 44.45 0)
+		(size 38.735 74.93)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "282b8530-fa16-414f-a4f1-54de704a8722")
+	)
+	(text_box "DRV8313 BLDC Driver"
+		(exclude_from_sim no)
+		(at 52.07 11.43 0)
+		(size 100.33 93.345)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "3ab7227a-af9a-4c5e-822b-53d85e17e56f")
+	)
+	(text_box "IC Power Bus"
+		(exclude_from_sim no)
+		(at 171.45 33.655 0)
+		(size 27.305 46.99)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "401ad18d-983e-46bc-b029-5008dfbeac5a")
+	)
+	(text_box "Fault LED"
+		(exclude_from_sim no)
+		(at 154.94 111.76 0)
+		(size 43.18 22.86)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "acdce0c8-957f-4b32-ab99-926957c9d96e")
+	)
+	(text_box "Current Sensing Circuits"
+		(exclude_from_sim no)
+		(at 73.025 109.22 0)
+		(size 78.74 41.91)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "dc0cbd36-b26a-44ff-a8a8-b99e8495eabf")
+	)
 	(junction
 		(at 30.48 58.42)
 		(diameter 0)
