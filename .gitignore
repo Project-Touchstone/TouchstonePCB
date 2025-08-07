@@ -1,7 +1,19 @@
-*-bak
-*-backups
-*-cache*
-*-bak*
-_autosave*
-\#auto_saved_files\#
-*.zip
+# Temporary files
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*~
+*-backups/
+
+# Local project settings
+*.kicad_prl
+
+# Auto-generated files (e.g., netlists, BOMs, Gerber files)
+*.net
+*.bom
+*.drl
+*.gbr
+*.cmp
+*.rpt
