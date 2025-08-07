@@ -2747,26 +2747,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text_box "6PWM logic"
-		(exclude_from_sim no)
-		(at 12.065 44.45 0)
-		(size 38.735 74.93)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "282b8530-fa16-414f-a4f1-54de704a8722")
-	)
 	(text_box "DRV8313 BLDC Driver"
 		(exclude_from_sim no)
 		(at 52.07 11.43 0)
@@ -2848,18 +2828,6 @@
 		(uuid "dc0cbd36-b26a-44ff-a8a8-b99e8495eabf")
 	)
 	(junction
-		(at 30.48 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0ef8e3a1-56fd-44c6-81d7-50dd3eddde51")
-	)
-	(junction
-		(at 22.86 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1be63d27-afef-43aa-b115-caa017397367")
-	)
-	(junction
 		(at 125.73 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2876,12 +2844,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5004fb33-e289-45f3-afb1-6685ffcc4e24")
-	)
-	(junction
-		(at 22.86 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "53028049-14a9-453a-b710-bcb9f83e4395")
 	)
 	(junction
 		(at 86.36 130.81)
@@ -2932,28 +2894,10 @@
 		(uuid "b875edb1-0fe9-499e-a9f2-6d726e363a4d")
 	)
 	(junction
-		(at 30.48 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c3ae1812-25cb-45a1-8458-88d3503cdeb0")
-	)
-	(junction
 		(at 91.44 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d7f51ddb-8f76-4f30-99f6-cc0dae1fd8b2")
-	)
-	(junction
-		(at 30.48 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e4625bfa-f653-4600-b353-72788c6f8a41")
-	)
-	(junction
-		(at 22.86 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ee9a9dc2-6f40-4560-b2d8-21b7a2476121")
 	)
 	(junction
 		(at 120.65 135.89)
@@ -2999,16 +2943,6 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 53.34) (xy 30.48 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "262cd508-66ca-4551-8c96-03b25e62f0a1")
-	)
-	(wire
-		(pts
 			(xy 132.08 53.34) (xy 127 53.34)
 		)
 		(stroke
@@ -3016,16 +2950,6 @@
 			(type default)
 		)
 		(uuid "2ded4707-40be-4884-9b88-bda7784ad1ab")
-	)
-	(wire
-		(pts
-			(xy 20.32 76.2) (xy 22.86 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3bc31c96-b33f-4d1b-af91-c8d2397f1a7f")
 	)
 	(wire
 		(pts
@@ -3149,26 +3073,6 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 81.28) (xy 30.48 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9bb34260-a093-475c-a2d1-ddaf98cabc87")
-	)
-	(wire
-		(pts
-			(xy 20.32 58.42) (xy 30.48 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a20e14d0-3aa7-4f3c-b2f8-69cdf34b93fe")
-	)
-	(wire
-		(pts
 			(xy 91.44 140.97) (xy 96.52 140.97)
 		)
 		(stroke
@@ -3199,16 +3103,6 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 97.79) (xy 22.86 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b215dce0-e4aa-4065-add2-f86504537a4f")
-	)
-	(wire
-		(pts
 			(xy 76.2 63.5) (xy 73.66 63.5)
 		)
 		(stroke
@@ -3226,26 +3120,6 @@
 			(type default)
 		)
 		(uuid "b8ec8347-9ad3-4d38-8d9c-e6010a2440a4")
-	)
-	(wire
-		(pts
-			(xy 22.86 76.2) (xy 30.48 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bfb15538-e7a8-4f9f-89a9-be96ece37723")
-	)
-	(wire
-		(pts
-			(xy 22.86 97.79) (xy 30.48 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ccf7c1df-e793-4913-ba24-7f8f5915680c")
 	)
 	(wire
 		(pts
@@ -3269,16 +3143,6 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 53.34) (xy 22.86 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0f0e4a0-4a17-44e3-b727-2a0a2b10adad")
-	)
-	(wire
-		(pts
 			(xy 82.55 137.16) (xy 86.36 137.16)
 		)
 		(stroke
@@ -3296,26 +3160,6 @@
 			(type default)
 		)
 		(uuid "ec2a97fd-f618-4598-b9c0-2384ac047bfb")
-	)
-	(wire
-		(pts
-			(xy 20.32 102.87) (xy 30.48 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1125a8e-7273-47a0-b6dd-bd62791cd741")
-	)
-	(label "EN2"
-		(at 45.72 78.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0e2e1808-90a6-4ac8-96e2-b9b43d2c464a")
 	)
 	(label "SGND2"
 		(at 116.84 129.54 90)
@@ -3347,26 +3191,6 @@
 		)
 		(uuid "3df5246f-ae25-4e1b-8296-ee415ed9617a")
 	)
-	(label "EN3"
-		(at 45.72 100.33 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3f5fbc19-17b1-4d13-a312-9c067b033888")
-	)
-	(label "EN1"
-		(at 45.72 55.88 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "42300ced-4d13-4219-813f-2ac6535347b2")
-	)
 	(label "FAULT"
 		(at 113.03 33.02 0)
 		(effects
@@ -3376,16 +3200,6 @@
 			(justify left bottom)
 		)
 		(uuid "523904e4-219b-40c2-9123-d12a6a7373a9")
-	)
-	(label "EN1"
-		(at 76.2 50.8 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6450f740-9a94-4d8b-b01f-2ad276ec2df6")
 	)
 	(label "SGND2"
 		(at 88.9 88.9 270)
@@ -3397,16 +3211,6 @@
 		)
 		(uuid "932aac57-272b-4008-be57-ac495b9b076c")
 	)
-	(label "EN3"
-		(at 93.98 33.02 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a77cf5f3-24a6-406b-852b-00659870d183")
-	)
 	(label "SGND1"
 		(at 86.36 88.9 270)
 		(effects
@@ -3416,16 +3220,6 @@
 			(justify right bottom)
 		)
 		(uuid "b738363e-4f7f-4b48-b927-a67089cda9d7")
-	)
-	(label "EN2"
-		(at 88.9 33.02 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ba0d6351-d737-491f-aecd-f41d1f84e4f4")
 	)
 	(global_label "VMOT"
 		(shape input)
@@ -3515,7 +3309,7 @@
 			)
 		)
 	)
-	(hierarchical_label "IN2H"
+	(hierarchical_label "IN2"
 		(shape input)
 		(at 86.36 33.02 90)
 		(effects
@@ -3537,6 +3331,17 @@
 		)
 		(uuid "1bf677cc-6a69-43a3-81c8-cb7e342d52cd")
 	)
+	(hierarchical_label "EN1"
+		(shape input)
+		(at 76.2 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1f43eb7c-e718-4366-8eb3-6435db5f3e01")
+	)
 	(hierarchical_label "OUT1"
 		(shape input)
 		(at 83.82 88.9 270)
@@ -3547,61 +3352,6 @@
 			(justify right)
 		)
 		(uuid "20cf10c4-05eb-41cd-9621-4949b6c3b9ee")
-	)
-	(hierarchical_label "IN2L"
-		(shape input)
-		(at 20.32 81.28 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2925820e-aae5-47e7-adc3-e78d2223714a")
-	)
-	(hierarchical_label "IN3H"
-		(shape input)
-		(at 20.32 97.79 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4e2380c5-5d48-4ce4-87e9-e99d1f1f3b17")
-	)
-	(hierarchical_label "IN3L"
-		(shape input)
-		(at 20.32 102.87 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5d8ea4cf-fe97-4352-a2ed-369756a27595")
-	)
-	(hierarchical_label "IN1H"
-		(shape input)
-		(at 20.32 53.34 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "605e0231-0bfa-4b52-aeb1-a42c084787f2")
-	)
-	(hierarchical_label "IN1L"
-		(shape input)
-		(at 20.32 58.42 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "67642353-53e6-42ac-84ce-3313da575672")
 	)
 	(hierarchical_label "SENSE2"
 		(shape input)
@@ -3614,7 +3364,7 @@
 		)
 		(uuid "69143570-6124-4b5b-8acc-71e61b1b80a4")
 	)
-	(hierarchical_label "IN1H"
+	(hierarchical_label "IN1"
 		(shape input)
 		(at 76.2 53.34 180)
 		(effects
@@ -3658,7 +3408,18 @@
 		)
 		(uuid "975847d5-7615-40a7-a006-967f9265c9f8")
 	)
-	(hierarchical_label "IN3H"
+	(hierarchical_label "EN2"
+		(shape input)
+		(at 88.9 33.02 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b65cd575-94f9-4292-aa1d-6c8bd3a256a3")
+	)
+	(hierarchical_label "IN3"
 		(shape input)
 		(at 91.44 33.02 90)
 		(effects
@@ -3680,16 +3441,16 @@
 		)
 		(uuid "d8fdaabc-958a-49fa-9d29-f08feee5a95a")
 	)
-	(hierarchical_label "IN2H"
+	(hierarchical_label "EN3"
 		(shape input)
-		(at 20.32 76.2 180)
+		(at 93.98 33.02 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "f8ca3cd2-aa9a-49eb-b6aa-912f573334b4")
+		(uuid "f2a925fb-b2a2-4484-b1f1-284861cfd468")
 	)
 	(symbol
 		(lib_id "Device:C_Small")
@@ -3972,77 +3733,6 @@
 				)
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/d7cde7c7-5a21-4551-ad0d-5b3678186860"
 					(reference "#PWR066")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_1")
-		(lib_id "power:GND")
-		(at 30.48 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0d030ecc-b328-45e5-9a7a-80e828183c7b")
-		(property "Reference" "#PWR041"
-			(at 30.48 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 30.48 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 30.48 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 30.48 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 30.48 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f5ba54a5-f84f-4bde-9fff-a735cef82985")
-		)
-		(instances
-			(project "DRIFT_Driver"
-				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/5e27a041-c435-4fa6-bfdb-7036e75ff5a5"
-					(reference "#PWR078")
-					(unit 1)
-				)
-				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/d7cde7c7-5a21-4551-ad0d-5b3678186860"
-					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -4621,79 +4311,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 30.48 62.23 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "31fb2438-4a5c-4ec9-9cd3-6ccf5e59840c")
-		(property "Reference" "R14"
-			(at 33.02 61.595 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "3.3k"
-			(at 33.02 64.135 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 32.258 62.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 30.48 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 30.48 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "243c7f0d-b55d-4cd0-b824-9283db0ec5c8")
-		)
-		(pin "2"
-			(uuid "3109e78a-5550-4000-a050-aadd8d0c74ba")
-		)
-		(instances
-			(project "DRIFT_Driver"
-				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/5e27a041-c435-4fa6-bfdb-7036e75ff5a5"
-					(reference "R27")
-					(unit 1)
-				)
-				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/d7cde7c7-5a21-4551-ad0d-5b3678186860"
-					(reference "R14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
 		(at 120.65 125.73 180)
@@ -5116,79 +4733,6 @@
 				)
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/d7cde7c7-5a21-4551-ad0d-5b3678186860"
 					(reference "#PWR052")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 22.86 101.6 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "49a8fd92-b83d-4c10-9e12-d2e01305d161")
-		(property "Reference" "R13"
-			(at 25.4 100.965 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "3.3k"
-			(at 25.4 103.505 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 24.638 101.6 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 22.86 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 22.86 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "026419ed-c4a1-4961-af60-2e7f8b525a5e")
-		)
-		(pin "2"
-			(uuid "0bb9b5e1-27d3-444a-ae74-5e351025724a")
-		)
-		(instances
-			(project "DRIFT_Driver"
-				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/5e27a041-c435-4fa6-bfdb-7036e75ff5a5"
-					(reference "R26")
-					(unit 1)
-				)
-				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/d7cde7c7-5a21-4551-ad0d-5b3678186860"
-					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -5625,77 +5169,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_1")
-		(lib_id "power:GND")
-		(at 22.86 83.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5c8a26de-4920-4914-9a59-cecfca21c72d")
-		(property "Reference" "#PWR039"
-			(at 22.86 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 22.86 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 22.86 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 22.86 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 22.86 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8c96d01e-4814-40f1-8509-ebd8e958718d")
-		)
-		(instances
-			(project "DRIFT_Driver"
-				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/5e27a041-c435-4fa6-bfdb-7036e75ff5a5"
-					(reference "#PWR076")
-					(unit 1)
-				)
-				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/d7cde7c7-5a21-4551-ad0d-5b3678186860"
-					(reference "#PWR039")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Amplifier_Current:INA199xxDCK")
 		(at 93.98 133.35 0)
 		(unit 1)
@@ -5996,184 +5469,6 @@
 		)
 	)
 	(symbol
-		(lib_id "TacTile:74HC32")
-		(at 38.1 78.74 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "82ecb538-d60f-4cf1-bc3c-8f0111796cb6")
-		(property "Reference" "U3"
-			(at 38.1 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74HC32"
-			(at 38.1 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 38.1 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd74hc32.pdf"
-			(at 38.1 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 38.1 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b68144fa-ffc2-4007-99fd-1357c90bd358")
-		)
-		(pin "2"
-			(uuid "315bdbac-84a9-466b-970b-1bf94082c279")
-		)
-		(pin "3"
-			(uuid "c418c3b6-53ef-4e17-9463-15a032ad3b15")
-		)
-		(pin "4"
-			(uuid "f46d907e-edd1-424c-aa17-064c45995f39")
-		)
-		(pin "5"
-			(uuid "e0db1c50-4e6e-4458-9521-4306d8b71fd2")
-		)
-		(pin "6"
-			(uuid "9555af08-9131-4ca1-8fac-9bd63fb7b749")
-		)
-		(pin "10"
-			(uuid "6fb46c27-1e2d-4542-8f0c-4ef36e4d6e3b")
-		)
-		(pin "8"
-			(uuid "2ba75ada-fb04-466c-b287-d04efa16f474")
-		)
-		(pin "9"
-			(uuid "9c7d1e38-f372-4ed1-8dc6-dee12e3d6ace")
-		)
-		(pin "11"
-			(uuid "ed2eb41f-1906-4352-995e-f90f6df58ece")
-		)
-		(pin "12"
-			(uuid "002e1e8d-5a0c-4ae3-80c2-db0b7913ed49")
-		)
-		(pin "13"
-			(uuid "3ca94e31-3e54-4211-88b5-cdbf4b122b9a")
-		)
-		(pin "14"
-			(uuid "de193470-cdb3-4441-8827-2f759b5dd882")
-		)
-		(pin "7"
-			(uuid "c05378e5-94f1-4d61-8121-c198630642fe")
-		)
-		(instances
-			(project "DRIFT_Driver"
-				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/5e27a041-c435-4fa6-bfdb-7036e75ff5a5"
-					(reference "U6")
-					(unit 2)
-				)
-				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/d7cde7c7-5a21-4551-ad0d-5b3678186860"
-					(reference "U3")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_1")
-		(lib_id "power:GND")
-		(at 22.86 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "87496b83-9e90-4976-ab83-dc997f095552")
-		(property "Reference" "#PWR040"
-			(at 22.86 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 22.86 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 22.86 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 22.86 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 22.86 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "96ca488a-ec43-405b-abdb-12a57ece2705")
-		)
-		(instances
-			(project "DRIFT_Driver"
-				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/5e27a041-c435-4fa6-bfdb-7036e75ff5a5"
-					(reference "#PWR077")
-					(unit 1)
-				)
-				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/d7cde7c7-5a21-4551-ad0d-5b3678186860"
-					(reference "#PWR040")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
 		(at 101.6 33.02 180)
@@ -6239,77 +5534,6 @@
 				)
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/d7cde7c7-5a21-4551-ad0d-5b3678186860"
 					(reference "#PWR055")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_1")
-		(lib_id "power:GND")
-		(at 30.48 110.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8dfb095c-c2fc-45fe-b10d-f884f49a7057")
-		(property "Reference" "#PWR043"
-			(at 30.48 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 30.48 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 30.48 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 30.48 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 30.48 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ef5269cb-3db9-46cf-854b-6d6e80ffeafc")
-		)
-		(instances
-			(project "DRIFT_Driver"
-				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/5e27a041-c435-4fa6-bfdb-7036e75ff5a5"
-					(reference "#PWR080")
-					(unit 1)
-				)
-				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/d7cde7c7-5a21-4551-ad0d-5b3678186860"
-					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -6782,113 +6006,6 @@
 		)
 	)
 	(symbol
-		(lib_id "TacTile:74HC32")
-		(at 38.1 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9c57cd7b-9e99-4751-bc24-79c574bb7bfc")
-		(property "Reference" "U3"
-			(at 38.1 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74HC32"
-			(at 38.1 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 38.1 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd74hc32.pdf"
-			(at 38.1 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 38.1 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6ce9b5e7-d0b1-446b-bffa-ebed931fbd98")
-		)
-		(pin "2"
-			(uuid "a8a783da-69f9-431e-a46b-24c3c6c6e714")
-		)
-		(pin "3"
-			(uuid "3eeae99c-1ca9-4686-9abf-db1ca97823df")
-		)
-		(pin "4"
-			(uuid "b928160a-6359-4e15-b1c3-13e07d66e085")
-		)
-		(pin "5"
-			(uuid "ec324f24-3c5d-4247-b59e-0f6daa48ff05")
-		)
-		(pin "6"
-			(uuid "abd71f67-b6e4-417f-ba3e-05134d46b0c8")
-		)
-		(pin "10"
-			(uuid "d6fb1b09-dadf-4c20-95ea-f9bb61546912")
-		)
-		(pin "8"
-			(uuid "f5412cf0-cf52-456b-9821-02a032035457")
-		)
-		(pin "9"
-			(uuid "d440018c-1bf3-49f0-bfd3-ec351d9e7fca")
-		)
-		(pin "11"
-			(uuid "b9524235-3bbd-48c1-b092-2a1787c305b0")
-		)
-		(pin "12"
-			(uuid "ac2c1b1e-eeb9-404b-bfd2-9ccc40920428")
-		)
-		(pin "13"
-			(uuid "d258d40c-b19c-49ad-b1f1-2e54c6633afb")
-		)
-		(pin "14"
-			(uuid "73a11d33-e156-4ac0-acbf-e0b25b37dec9")
-		)
-		(pin "7"
-			(uuid "58e89d83-f523-453a-a7b5-473c8a87568f")
-		)
-		(instances
-			(project "DRIFT_Driver"
-				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/5e27a041-c435-4fa6-bfdb-7036e75ff5a5"
-					(reference "U6")
-					(unit 1)
-				)
-				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/d7cde7c7-5a21-4551-ad0d-5b3678186860"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 114.3 46.99 180)
 		(unit 1)
@@ -7249,186 +6366,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 30.48 85.09 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c3c220ca-6bef-4bef-bad6-d78080c5f969")
-		(property "Reference" "R15"
-			(at 33.02 84.455 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "3.3k"
-			(at 33.02 86.995 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 32.258 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 30.48 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 30.48 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6e38645e-c8f1-4d4e-824a-af997910ab52")
-		)
-		(pin "2"
-			(uuid "c40d99ce-d270-4e25-99ae-eab46cefd245")
-		)
-		(instances
-			(project "DRIFT_Driver"
-				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/5e27a041-c435-4fa6-bfdb-7036e75ff5a5"
-					(reference "R28")
-					(unit 1)
-				)
-				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/d7cde7c7-5a21-4551-ad0d-5b3678186860"
-					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "TacTile:74HC32")
-		(at 38.1 100.33 0)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c94e8dff-3b9d-4c95-b13f-7ccc16dd9459")
-		(property "Reference" "U3"
-			(at 38.1 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74HC32"
-			(at 38.1 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 38.1 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd74hc32.pdf"
-			(at 38.1 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 38.1 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "564eaa95-84ec-45a5-8dd6-98abba92b446")
-		)
-		(pin "2"
-			(uuid "cd8ae60b-b0e7-4bb2-9876-781523e9bf7b")
-		)
-		(pin "3"
-			(uuid "c95afef7-3a3b-4d35-b8e4-a66d5d39efa0")
-		)
-		(pin "4"
-			(uuid "8767eab5-f129-4e5a-afab-fe2b10f61578")
-		)
-		(pin "5"
-			(uuid "10395d23-6508-4b31-88c2-08e7c01962e3")
-		)
-		(pin "6"
-			(uuid "a0f85a1f-103e-41b3-bb18-056a5ac425b1")
-		)
-		(pin "10"
-			(uuid "72a4efc2-5ac6-4c92-81b5-3a9aca755174")
-		)
-		(pin "8"
-			(uuid "5027f24a-8b56-4380-ad53-b3fc605227fc")
-		)
-		(pin "9"
-			(uuid "ec3fa53f-3ef9-40f5-90f9-e44bcc624225")
-		)
-		(pin "11"
-			(uuid "7ab81126-b3a1-45d3-a41c-5fce345761c4")
-		)
-		(pin "12"
-			(uuid "954eb73e-5c26-4342-8c9c-a4552f40f614")
-		)
-		(pin "13"
-			(uuid "429168c6-e243-4feb-930d-4feddddb3cca")
-		)
-		(pin "14"
-			(uuid "5d236fd6-784a-4fc9-a525-7bd867694715")
-		)
-		(pin "7"
-			(uuid "367e37b4-ae3d-475c-a404-9a64ee607241")
-		)
-		(instances
-			(project "DRIFT_Driver"
-				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/5e27a041-c435-4fa6-bfdb-7036e75ff5a5"
-					(reference "U6")
-					(unit 3)
-				)
-				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/d7cde7c7-5a21-4551-ad0d-5b3678186860"
-					(reference "U3")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 104.14 25.4 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7495,79 +6432,6 @@
 				)
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/d7cde7c7-5a21-4551-ad0d-5b3678186860"
 					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 30.48 106.68 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c97d6ea7-b959-4192-aae9-79b293229744")
-		(property "Reference" "R16"
-			(at 33.02 106.045 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "3.3k"
-			(at 33.02 108.585 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 32.258 106.68 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 30.48 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 30.48 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2b654379-f949-4c57-8dc7-f4c419836a2f")
-		)
-		(pin "2"
-			(uuid "a3013ead-206c-4282-b65c-eef872656aa3")
-		)
-		(instances
-			(project "DRIFT_Driver"
-				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/5e27a041-c435-4fa6-bfdb-7036e75ff5a5"
-					(reference "R29")
-					(unit 1)
-				)
-				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/d7cde7c7-5a21-4551-ad0d-5b3678186860"
-					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -7871,79 +6735,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 22.86 80.01 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d75382bc-b8f3-41ac-81ea-28d2c7f47161")
-		(property "Reference" "R12"
-			(at 25.4 79.375 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "3.3k"
-			(at 25.4 81.915 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 24.638 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 22.86 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 22.86 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e88920cf-f275-4043-bdfa-76f077e9e77a")
-		)
-		(pin "2"
-			(uuid "15d7c8d1-2ff5-45a8-82b5-bdcc071c5a68")
-		)
-		(instances
-			(project "DRIFT_Driver"
-				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/5e27a041-c435-4fa6-bfdb-7036e75ff5a5"
-					(reference "R25")
-					(unit 1)
-				)
-				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/d7cde7c7-5a21-4551-ad0d-5b3678186860"
-					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
 		(at 180.34 71.12 0)
@@ -8154,150 +6945,6 @@
 				)
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/d7cde7c7-5a21-4551-ad0d-5b3678186860"
 					(reference "R22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_1")
-		(lib_id "power:GND")
-		(at 22.86 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dcf43e00-f40e-4c0f-bd84-d7dc0e3cecb8")
-		(property "Reference" "#PWR038"
-			(at 22.86 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 22.86 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 22.86 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 22.86 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 22.86 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "906371f7-d9cd-457b-a86e-dc720626ff86")
-		)
-		(instances
-			(project "DRIFT_Driver"
-				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/5e27a041-c435-4fa6-bfdb-7036e75ff5a5"
-					(reference "#PWR075")
-					(unit 1)
-				)
-				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/d7cde7c7-5a21-4551-ad0d-5b3678186860"
-					(reference "#PWR038")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 22.86 57.15 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e0c39640-8890-4f6f-b104-b15607381dd0")
-		(property "Reference" "R11"
-			(at 25.4 56.515 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "3.3k"
-			(at 25.4 59.055 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 24.638 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 22.86 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 22.86 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bc6f9b67-df4b-4909-a32e-6c1f420ef1e9")
-		)
-		(pin "2"
-			(uuid "4f450f67-ef6b-4d62-8a75-4c7686b38d56")
-		)
-		(instances
-			(project "DRIFT_Driver"
-				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/5e27a041-c435-4fa6-bfdb-7036e75ff5a5"
-					(reference "R24")
-					(unit 1)
-				)
-				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/d7cde7c7-5a21-4551-ad0d-5b3678186860"
-					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -8545,77 +7192,6 @@
 				)
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/d7cde7c7-5a21-4551-ad0d-5b3678186860"
 					(reference "IC2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_1")
-		(lib_id "power:GND")
-		(at 30.48 88.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eadb3a25-6600-4561-a548-b37f6d72032d")
-		(property "Reference" "#PWR042"
-			(at 30.48 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 30.48 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 30.48 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 30.48 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 30.48 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a8846e10-98d0-4fd2-a379-f6a26eef76c4")
-		)
-		(instances
-			(project "DRIFT_Driver"
-				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/5e27a041-c435-4fa6-bfdb-7036e75ff5a5"
-					(reference "#PWR079")
-					(unit 1)
-				)
-				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/d7cde7c7-5a21-4551-ad0d-5b3678186860"
-					(reference "#PWR042")
 					(unit 1)
 				)
 			)
