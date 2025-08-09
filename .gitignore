@@ -6,14 +6,12 @@
 *.kicad_sch-bak
 *~
 *-backups/
+*.zip
 
 # Local project settings
 *.kicad_prl
 
-# Auto-generated files (e.g., netlists, BOMs, Gerber files)
+# Auto-generated files (e.g., netlists)
 *.net
-*.bom
-*.drl
-*.gbr
 *.cmp
 *.rpt

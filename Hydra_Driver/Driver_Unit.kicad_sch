@@ -1676,1076 +1676,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "TacTile:74HC32"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "74HC32"
-				(at 0 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd74hc32.pdf"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "quad 2-input OR gate"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "TTL or2"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SO14* DIP*W7.62mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "74HC32_1_1"
-				(arc
-					(start -3.81 3.81)
-					(mid -2.589 0)
-					(end -3.81 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 3.81) (xy -0.635 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -3.81) (xy -0.635 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(arc
-					(start 3.81 0)
-					(mid 2.1855 -2.584)
-					(end -0.6096 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(arc
-					(start -0.6096 3.81)
-					(mid 2.1928 2.5924)
-					(end 3.81 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 3.81) (xy -3.81 3.81) (xy -3.81 3.81) (xy -3.556 3.4036) (xy -3.0226 2.2606) (xy -2.6924 1.0414)
-						(xy -2.6162 -0.254) (xy -2.7686 -1.4986) (xy -3.175 -2.7178) (xy -3.81 -3.81) (xy -3.81 -3.81)
-						(xy -0.635 -3.81)
-					)
-					(stroke
-						(width -25.4)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 4.318)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 4.318)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "74HC32_1_2"
-				(arc
-					(start 0 3.81)
-					(mid 3.7934 0)
-					(end 0 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 3.81) (xy -3.81 3.81) (xy -3.81 -3.81) (xy 0 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input inverted
-					(at -7.62 2.54 0)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input inverted
-					(at -7.62 -2.54 0)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "74HC32_2_1"
-				(arc
-					(start -3.81 3.81)
-					(mid -2.589 0)
-					(end -3.81 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 3.81) (xy -0.635 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -3.81) (xy -0.635 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(arc
-					(start 3.81 0)
-					(mid 2.1855 -2.584)
-					(end -0.6096 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(arc
-					(start -0.6096 3.81)
-					(mid 2.1928 2.5924)
-					(end 3.81 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 3.81) (xy -3.81 3.81) (xy -3.81 3.81) (xy -3.556 3.4036) (xy -3.0226 2.2606) (xy -2.6924 1.0414)
-						(xy -2.6162 -0.254) (xy -2.7686 -1.4986) (xy -3.175 -2.7178) (xy -3.81 -3.81) (xy -3.81 -3.81)
-						(xy -0.635 -3.81)
-					)
-					(stroke
-						(width -25.4)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 4.318)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 4.318)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "74HC32_2_2"
-				(arc
-					(start 0 3.81)
-					(mid 3.7934 0)
-					(end 0 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 3.81) (xy -3.81 3.81) (xy -3.81 -3.81) (xy 0 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input inverted
-					(at -7.62 2.54 0)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input inverted
-					(at -7.62 -2.54 0)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "74HC32_3_1"
-				(arc
-					(start -3.81 3.81)
-					(mid -2.589 0)
-					(end -3.81 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 3.81) (xy -0.635 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -3.81) (xy -0.635 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(arc
-					(start 3.81 0)
-					(mid 2.1855 -2.584)
-					(end -0.6096 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(arc
-					(start -0.6096 3.81)
-					(mid 2.1928 2.5924)
-					(end 3.81 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 3.81) (xy -3.81 3.81) (xy -3.81 3.81) (xy -3.556 3.4036) (xy -3.0226 2.2606) (xy -2.6924 1.0414)
-						(xy -2.6162 -0.254) (xy -2.7686 -1.4986) (xy -3.175 -2.7178) (xy -3.81 -3.81) (xy -3.81 -3.81)
-						(xy -0.635 -3.81)
-					)
-					(stroke
-						(width -25.4)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 4.318)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 4.318)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "74HC32_3_2"
-				(arc
-					(start 0 3.81)
-					(mid 3.7934 0)
-					(end 0 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 3.81) (xy -3.81 3.81) (xy -3.81 -3.81) (xy 0 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input inverted
-					(at -7.62 2.54 0)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input inverted
-					(at -7.62 -2.54 0)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "74HC32_4_1"
-				(arc
-					(start -3.81 3.81)
-					(mid -2.589 0)
-					(end -3.81 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 3.81) (xy -0.635 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -3.81) (xy -0.635 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(arc
-					(start 3.81 0)
-					(mid 2.1855 -2.584)
-					(end -0.6096 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(arc
-					(start -0.6096 3.81)
-					(mid 2.1928 2.5924)
-					(end 3.81 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 3.81) (xy -3.81 3.81) (xy -3.81 3.81) (xy -3.556 3.4036) (xy -3.0226 2.2606) (xy -2.6924 1.0414)
-						(xy -2.6162 -0.254) (xy -2.7686 -1.4986) (xy -3.175 -2.7178) (xy -3.81 -3.81) (xy -3.81 -3.81)
-						(xy -0.635 -3.81)
-					)
-					(stroke
-						(width -25.4)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 4.318)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 4.318)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "74HC32_4_2"
-				(arc
-					(start 0 3.81)
-					(mid 3.7934 0)
-					(end 0 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 3.81) (xy -3.81 3.81) (xy -3.81 -3.81) (xy 0 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input inverted
-					(at -7.62 2.54 0)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input inverted
-					(at -7.62 -2.54 0)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "74HC32_5_0"
-				(pin power_in line
-					(at 0 12.7 270)
-					(length 5.08)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -12.7 90)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "74HC32_5_1"
-				(rectangle
-					(start -5.08 7.62)
-					(end 5.08 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "power:GND"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(text_box "DRV8313 BLDC Driver"
 		(exclude_from_sim no)
@@ -2766,26 +1696,6 @@
 			(justify left top)
 		)
 		(uuid "3ab7227a-af9a-4c5e-822b-53d85e17e56f")
-	)
-	(text_box "IC Power Bus"
-		(exclude_from_sim no)
-		(at 171.45 33.655 0)
-		(size 27.305 46.99)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "401ad18d-983e-46bc-b029-5008dfbeac5a")
 	)
 	(text_box "Fault LED"
 		(exclude_from_sim no)
@@ -2880,12 +1790,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b19c0e09-83a4-4ca5-bac8-dd54674156b9")
-	)
-	(junction
-		(at 180.34 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b78f30f7-9086-4ce2-944e-58918b257cbe")
 	)
 	(junction
 		(at 116.84 137.16)
@@ -3536,7 +2440,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "069bbe2e-7b64-426c-aaa9-d3de6a8eabea")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR043"
 			(at 91.44 129.54 0)
 			(effects
 				(font
@@ -3586,11 +2490,11 @@
 		(instances
 			(project "DRIFT_Driver"
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/5e27a041-c435-4fa6-bfdb-7036e75ff5a5"
-					(reference "#PWR087")
+					(reference "#PWR074")
 					(unit 1)
 				)
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/d7cde7c7-5a21-4551-ad0d-5b3678186860"
-					(reference "#PWR050")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -3607,7 +2511,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "089977c0-d73d-4aae-8dab-0e66d76c6b54")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR041"
 			(at 83.82 26.67 0)
 			(effects
 				(font
@@ -3657,11 +2561,11 @@
 		(instances
 			(project "DRIFT_Driver"
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/5e27a041-c435-4fa6-bfdb-7036e75ff5a5"
-					(reference "#PWR085")
+					(reference "#PWR072")
 					(unit 1)
 				)
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/d7cde7c7-5a21-4551-ad0d-5b3678186860"
-					(reference "#PWR048")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -3678,7 +2582,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "09fa2c60-1fec-4474-a8b7-434334485ba8")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR059"
 			(at 125.73 129.54 0)
 			(effects
 				(font
@@ -3728,11 +2632,11 @@
 		(instances
 			(project "DRIFT_Driver"
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/5e27a041-c435-4fa6-bfdb-7036e75ff5a5"
-					(reference "#PWR0103")
+					(reference "#PWR090")
 					(unit 1)
 				)
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/d7cde7c7-5a21-4551-ad0d-5b3678186860"
-					(reference "#PWR066")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -3749,7 +2653,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1022310d-2c88-4598-8b8a-789251bfa0aa")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR056"
 			(at 114.3 82.55 0)
 			(effects
 				(font
@@ -3799,11 +2703,11 @@
 		(instances
 			(project "DRIFT_Driver"
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/5e27a041-c435-4fa6-bfdb-7036e75ff5a5"
-					(reference "#PWR0100")
+					(reference "#PWR087")
 					(unit 1)
 				)
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/d7cde7c7-5a21-4551-ad0d-5b3678186860"
-					(reference "#PWR063")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -3893,7 +2797,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1374c113-6c0b-416d-ad8d-e10bf4148941")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR039"
 			(at 76.2 82.55 0)
 			(effects
 				(font
@@ -3943,11 +2847,11 @@
 		(instances
 			(project "DRIFT_Driver"
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/5e27a041-c435-4fa6-bfdb-7036e75ff5a5"
-					(reference "#PWR083")
+					(reference "#PWR070")
 					(unit 1)
 				)
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/d7cde7c7-5a21-4551-ad0d-5b3678186860"
-					(reference "#PWR046")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -3964,7 +2868,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "274c8712-58ea-45ea-b42b-8273163eae8b")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR063"
 			(at 140.97 67.31 0)
 			(effects
 				(font
@@ -4014,153 +2918,11 @@
 		(instances
 			(project "DRIFT_Driver"
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/5e27a041-c435-4fa6-bfdb-7036e75ff5a5"
-					(reference "#PWR0107")
+					(reference "#PWR094")
 					(unit 1)
 				)
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/d7cde7c7-5a21-4551-ad0d-5b3678186860"
-					(reference "#PWR070")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "+3.3V_1")
-		(lib_id "power:+3.3V")
-		(at 180.34 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2a36e1d1-50d5-49a0-9dbb-596aa7048f8f")
-		(property "Reference" "#PWR071"
-			(at 180.34 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 180.34 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 180.34 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 180.34 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 180.34 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e5a301e4-b7c4-44db-a158-1a500ee99e85")
-		)
-		(instances
-			(project "DRIFT_Driver"
-				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/5e27a041-c435-4fa6-bfdb-7036e75ff5a5"
-					(reference "#PWR0108")
-					(unit 1)
-				)
-				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/d7cde7c7-5a21-4551-ad0d-5b3678186860"
-					(reference "#PWR071")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 185.42 45.72 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2c710b54-a219-43c6-ad7d-42121d2427ab")
-		(property "Reference" "#PWR074"
-			(at 191.77 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 189.23 45.7199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 185.42 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 185.42 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 185.42 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "149345cc-cf5c-4d91-9219-f24db8e328f9")
-		)
-		(instances
-			(project ""
-				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/5e27a041-c435-4fa6-bfdb-7036e75ff5a5"
-					(reference "#PWR0111")
-					(unit 1)
-				)
-				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/d7cde7c7-5a21-4551-ad0d-5b3678186860"
-					(reference "#PWR074")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -4250,7 +3012,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e5d60ce-3afa-4673-929e-5893eb341c35")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR060"
 			(at 125.73 147.32 0)
 			(effects
 				(font
@@ -4300,11 +3062,11 @@
 		(instances
 			(project "DRIFT_Driver"
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/5e27a041-c435-4fa6-bfdb-7036e75ff5a5"
-					(reference "#PWR0104")
+					(reference "#PWR091")
 					(unit 1)
 				)
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/d7cde7c7-5a21-4551-ad0d-5b3678186860"
-					(reference "#PWR067")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -4321,7 +3083,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "32b667ee-f0fd-4bce-ae05-aab6d19e0edf")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR058"
 			(at 120.65 119.38 0)
 			(effects
 				(font
@@ -4371,11 +3133,11 @@
 		(instances
 			(project "DRIFT_Driver"
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/5e27a041-c435-4fa6-bfdb-7036e75ff5a5"
-					(reference "#PWR0102")
+					(reference "#PWR089")
 					(unit 1)
 				)
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/d7cde7c7-5a21-4551-ad0d-5b3678186860"
-					(reference "#PWR065")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -4392,7 +3154,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "32c03c98-a085-4760-9d01-60c2d3ad6b3d")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR047"
 			(at 99.06 95.25 0)
 			(effects
 				(font
@@ -4442,11 +3204,11 @@
 		(instances
 			(project "DRIFT_Driver"
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/5e27a041-c435-4fa6-bfdb-7036e75ff5a5"
-					(reference "#PWR091")
+					(reference "#PWR078")
 					(unit 1)
 				)
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/d7cde7c7-5a21-4551-ad0d-5b3678186860"
-					(reference "#PWR054")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -4536,7 +3298,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d51925e-b3fc-4815-b224-6a8d0d895198")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR062"
 			(at 140.97 59.69 0)
 			(effects
 				(font
@@ -4586,82 +3348,11 @@
 		(instances
 			(project "DRIFT_Driver"
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/5e27a041-c435-4fa6-bfdb-7036e75ff5a5"
-					(reference "#PWR0106")
+					(reference "#PWR093")
 					(unit 1)
 				)
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/d7cde7c7-5a21-4551-ad0d-5b3678186860"
-					(reference "#PWR069")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 182.88 45.72 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "44b1468a-43f4-462b-a2a4-4ae7860031a4")
-		(property "Reference" "C23"
-			(at 182.8863 39.37 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.1u"
-			(at 182.8863 41.91 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 182.88 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 182.88 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 182.88 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "42b4486f-9b4a-4a37-a524-38825151bdca")
-		)
-		(pin "2"
-			(uuid "89b16a12-1aa3-46bf-bcbd-21fdf689e324")
-		)
-		(instances
-			(project "DRIFT_Driver"
-				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/5e27a041-c435-4fa6-bfdb-7036e75ff5a5"
-					(reference "C34")
-					(unit 1)
-				)
-				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/d7cde7c7-5a21-4551-ad0d-5b3678186860"
-					(reference "C23")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -4678,7 +3369,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "45adb5de-b1c5-4229-a55a-3ef5f585c198")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR045"
 			(at 96.52 26.67 0)
 			(effects
 				(font
@@ -4728,11 +3419,11 @@
 		(instances
 			(project "DRIFT_Driver"
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/5e27a041-c435-4fa6-bfdb-7036e75ff5a5"
-					(reference "#PWR089")
+					(reference "#PWR076")
 					(unit 1)
 				)
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/d7cde7c7-5a21-4551-ad0d-5b3678186860"
-					(reference "#PWR052")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -4749,7 +3440,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ca65029-433d-4c7f-b25f-a293a4b73f3a")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR066"
 			(at 186.69 124.46 0)
 			(effects
 				(font
@@ -4800,11 +3491,11 @@
 		(instances
 			(project ""
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/5e27a041-c435-4fa6-bfdb-7036e75ff5a5"
-					(reference "#PWR0110")
+					(reference "#PWR097")
 					(unit 1)
 				)
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/d7cde7c7-5a21-4551-ad0d-5b3678186860"
-					(reference "#PWR073")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -4892,7 +3583,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "51a566f4-cf81-4598-b12d-eec0f9bf50dc")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR042"
 			(at 86.36 119.38 0)
 			(effects
 				(font
@@ -4942,11 +3633,11 @@
 		(instances
 			(project "DRIFT_Driver"
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/5e27a041-c435-4fa6-bfdb-7036e75ff5a5"
-					(reference "#PWR086")
+					(reference "#PWR073")
 					(unit 1)
 				)
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/d7cde7c7-5a21-4551-ad0d-5b3678186860"
-					(reference "#PWR049")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -4963,7 +3654,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "532e9042-394a-48ad-87ed-b5c6636f5d00")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR052"
 			(at 114.3 46.99 0)
 			(effects
 				(font
@@ -5013,11 +3704,11 @@
 		(instances
 			(project "DRIFT_Driver"
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/5e27a041-c435-4fa6-bfdb-7036e75ff5a5"
-					(reference "#PWR096")
+					(reference "#PWR083")
 					(unit 1)
 				)
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/d7cde7c7-5a21-4551-ad0d-5b3678186860"
-					(reference "#PWR059")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -5107,7 +3798,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5631d328-b7b8-4e54-9564-67bb9e268630")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR037"
 			(at 77.47 41.91 0)
 			(effects
 				(font
@@ -5158,11 +3849,11 @@
 		(instances
 			(project "DRIFT_Driver"
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/5e27a041-c435-4fa6-bfdb-7036e75ff5a5"
-					(reference "#PWR081")
+					(reference "#PWR068")
 					(unit 1)
 				)
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/d7cde7c7-5a21-4551-ad0d-5b3678186860"
-					(reference "#PWR044")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -5178,7 +3869,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "62733b80-7dd2-4213-948a-d28b0e5816b1")
-		(property "Reference" "U4"
+		(property "Reference" "U3"
 			(at 106.68 129.9211 0)
 			(effects
 				(font
@@ -5243,11 +3934,11 @@
 		(instances
 			(project "DRIFT_Driver"
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/5e27a041-c435-4fa6-bfdb-7036e75ff5a5"
-					(reference "U7")
+					(reference "U6")
 					(unit 1)
 				)
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/d7cde7c7-5a21-4551-ad0d-5b3678186860"
-					(reference "U4")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -5337,7 +4028,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6aaffea9-4e0e-47ce-8cfe-36c6ed9d1004")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR040"
 			(at 82.55 143.51 0)
 			(effects
 				(font
@@ -5387,11 +4078,11 @@
 		(instances
 			(project "DRIFT_Driver"
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/5e27a041-c435-4fa6-bfdb-7036e75ff5a5"
-					(reference "#PWR084")
+					(reference "#PWR071")
 					(unit 1)
 				)
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/d7cde7c7-5a21-4551-ad0d-5b3678186860"
-					(reference "#PWR047")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -5408,7 +4099,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f3fb7f1-f0e3-4b74-8038-619069ee67d0")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR057"
 			(at 116.84 143.51 0)
 			(effects
 				(font
@@ -5458,11 +4149,11 @@
 		(instances
 			(project "DRIFT_Driver"
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/5e27a041-c435-4fa6-bfdb-7036e75ff5a5"
-					(reference "#PWR0101")
+					(reference "#PWR088")
 					(unit 1)
 				)
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/d7cde7c7-5a21-4551-ad0d-5b3678186860"
-					(reference "#PWR064")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -5479,7 +4170,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8825bb7d-213e-49c1-bd6e-f3d6008286b2")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR048"
 			(at 101.6 26.67 0)
 			(effects
 				(font
@@ -5529,11 +4220,11 @@
 		(instances
 			(project "DRIFT_Driver"
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/5e27a041-c435-4fa6-bfdb-7036e75ff5a5"
-					(reference "#PWR092")
+					(reference "#PWR079")
 					(unit 1)
 				)
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/d7cde7c7-5a21-4551-ad0d-5b3678186860"
-					(reference "#PWR055")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -5550,7 +4241,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e14a9d6-5366-4889-a55e-5eb3b871b628")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR053"
 			(at 120.65 58.42 0)
 			(effects
 				(font
@@ -5601,11 +4292,11 @@
 		(instances
 			(project "DRIFT_Driver"
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/5e27a041-c435-4fa6-bfdb-7036e75ff5a5"
-					(reference "#PWR097")
+					(reference "#PWR084")
 					(unit 1)
 				)
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/d7cde7c7-5a21-4551-ad0d-5b3678186860"
-					(reference "#PWR060")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -5622,7 +4313,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91120c09-37a7-4de6-880c-db922ae8a3be")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR046"
 			(at 99.06 26.67 0)
 			(effects
 				(font
@@ -5672,121 +4363,12 @@
 		(instances
 			(project "DRIFT_Driver"
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/5e27a041-c435-4fa6-bfdb-7036e75ff5a5"
-					(reference "#PWR090")
+					(reference "#PWR077")
 					(unit 1)
 				)
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/d7cde7c7-5a21-4551-ad0d-5b3678186860"
-					(reference "#PWR053")
+					(reference "#PWR046")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "TacTile:74HC32")
-		(at 180.34 58.42 0)
-		(unit 5)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "911b4178-c20b-4e59-ade0-e817a023d4af")
-		(property "Reference" "U3"
-			(at 187.325 57.785 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "74HC32"
-			(at 187.325 60.325 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 180.34 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd74hc32.pdf"
-			(at 180.34 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 180.34 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "130cbd49-b2cc-48da-9df6-14ff7b4b6a24")
-		)
-		(pin "2"
-			(uuid "152a3eac-db8b-4e09-ab9e-17ec74c959e4")
-		)
-		(pin "3"
-			(uuid "5547bf09-b8d1-4b4c-960b-2bacda3a222a")
-		)
-		(pin "4"
-			(uuid "e4bb61f4-9309-4d18-80f5-2bb6dc85bae2")
-		)
-		(pin "5"
-			(uuid "ef5cbfa1-fbc2-4975-9af0-b372e22794a6")
-		)
-		(pin "6"
-			(uuid "0a0759b3-903c-4b26-9edb-7c804b5235f9")
-		)
-		(pin "10"
-			(uuid "ee1310ad-2799-43ee-8b8e-659abd675b94")
-		)
-		(pin "8"
-			(uuid "8e97d8a2-3af7-4fbf-8766-e94776225401")
-		)
-		(pin "9"
-			(uuid "cfd6d242-b3dd-4a7f-aa0d-698dd009eb01")
-		)
-		(pin "11"
-			(uuid "90520db3-9c1e-4a1c-86b0-bebd75138170")
-		)
-		(pin "12"
-			(uuid "a5b0ea59-d3d1-40ac-b0c2-affed39f722b")
-		)
-		(pin "13"
-			(uuid "e0639960-4bd9-49e0-8843-82b04c167ac2")
-		)
-		(pin "14"
-			(uuid "90a0fbbd-339a-43c4-a066-02108dcce1e8")
-		)
-		(pin "7"
-			(uuid "a389279e-cdb8-4e83-b1ac-58374db7e4aa")
-		)
-		(instances
-			(project "DRIFT_Driver"
-				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/5e27a041-c435-4fa6-bfdb-7036e75ff5a5"
-					(reference "U6")
-					(unit 5)
-				)
-				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/d7cde7c7-5a21-4551-ad0d-5b3678186860"
-					(reference "U3")
-					(unit 5)
 				)
 			)
 		)
@@ -5802,7 +4384,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97ceb311-4934-47f3-aeff-2639f459f5ad")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR054"
 			(at 120.65 60.96 0)
 			(effects
 				(font
@@ -5853,11 +4435,11 @@
 		(instances
 			(project "DRIFT_Driver"
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/5e27a041-c435-4fa6-bfdb-7036e75ff5a5"
-					(reference "#PWR098")
+					(reference "#PWR085")
 					(unit 1)
 				)
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/d7cde7c7-5a21-4551-ad0d-5b3678186860"
-					(reference "#PWR061")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -5945,7 +4527,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9af36a10-dc57-47f5-b789-a13e0969b994")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR044"
 			(at 91.44 147.32 0)
 			(effects
 				(font
@@ -5995,11 +4577,11 @@
 		(instances
 			(project "DRIFT_Driver"
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/5e27a041-c435-4fa6-bfdb-7036e75ff5a5"
-					(reference "#PWR088")
+					(reference "#PWR075")
 					(unit 1)
 				)
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/d7cde7c7-5a21-4551-ad0d-5b3678186860"
-					(reference "#PWR051")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -6015,7 +4597,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c6fbc57-b290-435c-adc6-ab253e50e974")
-		(property "Reference" "R20"
+		(property "Reference" "R14"
 			(at 116.84 46.355 0)
 			(effects
 				(font
@@ -6068,11 +4650,11 @@
 		(instances
 			(project "DRIFT_Driver"
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/5e27a041-c435-4fa6-bfdb-7036e75ff5a5"
-					(reference "R33")
+					(reference "R21")
 					(unit 1)
 				)
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/d7cde7c7-5a21-4551-ad0d-5b3678186860"
-					(reference "R20")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -6087,7 +4669,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a7e87f90-c561-4993-8d0f-935f1b76702a")
-		(property "Reference" "R17"
+		(property "Reference" "R11"
 			(at 78.105 132.715 0)
 			(effects
 				(font
@@ -6140,11 +4722,11 @@
 		(instances
 			(project "DRIFT_Driver"
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/5e27a041-c435-4fa6-bfdb-7036e75ff5a5"
-					(reference "R30")
+					(reference "R18")
 					(unit 1)
 				)
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/d7cde7c7-5a21-4551-ad0d-5b3678186860"
-					(reference "R17")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -6161,7 +4743,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3405d79-50ca-4d39-8f97-b3911dd34c28")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR038"
 			(at 69.85 55.88 0)
 			(effects
 				(font
@@ -6212,11 +4794,11 @@
 		(instances
 			(project "DRIFT_Driver"
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/5e27a041-c435-4fa6-bfdb-7036e75ff5a5"
-					(reference "#PWR082")
+					(reference "#PWR069")
 					(unit 1)
 				)
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/d7cde7c7-5a21-4551-ad0d-5b3678186860"
-					(reference "#PWR045")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -6303,7 +4885,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c2ceb2a1-7e17-48ae-9eae-15725c235709")
-		(property "Reference" "R23"
+		(property "Reference" "R17"
 			(at 176.53 120.015 90)
 			(effects
 				(font
@@ -6354,11 +4936,11 @@
 		(instances
 			(project "DRIFT_Driver"
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/5e27a041-c435-4fa6-bfdb-7036e75ff5a5"
-					(reference "R36")
+					(reference "R24")
 					(unit 1)
 				)
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/d7cde7c7-5a21-4551-ad0d-5b3678186860"
-					(reference "R23")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -6374,7 +4956,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c964620c-4f60-417c-99bf-b8ffd00a740e")
-		(property "Reference" "R18"
+		(property "Reference" "R12"
 			(at 106.68 24.765 0)
 			(effects
 				(font
@@ -6427,11 +5009,11 @@
 		(instances
 			(project "DRIFT_Driver"
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/5e27a041-c435-4fa6-bfdb-7036e75ff5a5"
-					(reference "R31")
+					(reference "R19")
 					(unit 1)
 				)
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/d7cde7c7-5a21-4551-ad0d-5b3678186860"
-					(reference "R18")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -6447,7 +5029,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d331abba-5087-4927-bf2e-3e8d52a210b7")
-		(property "Reference" "R19"
+		(property "Reference" "R13"
 			(at 115.57 24.765 0)
 			(effects
 				(font
@@ -6500,11 +5082,11 @@
 		(instances
 			(project "DRIFT_Driver"
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/5e27a041-c435-4fa6-bfdb-7036e75ff5a5"
-					(reference "R32")
+					(reference "R20")
 					(unit 1)
 				)
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/d7cde7c7-5a21-4551-ad0d-5b3678186860"
-					(reference "R19")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -6521,7 +5103,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d68d25da-a8f7-4985-a77f-126f37348e1c")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR049"
 			(at 101.6 95.25 0)
 			(effects
 				(font
@@ -6571,11 +5153,11 @@
 		(instances
 			(project "DRIFT_Driver"
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/5e27a041-c435-4fa6-bfdb-7036e75ff5a5"
-					(reference "#PWR093")
+					(reference "#PWR080")
 					(unit 1)
 				)
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/d7cde7c7-5a21-4551-ad0d-5b3678186860"
-					(reference "#PWR056")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -6590,7 +5172,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d6ba59e8-3a10-416d-afb9-623d7b3483e3")
-		(property "Reference" "R21"
+		(property "Reference" "R15"
 			(at 112.395 132.715 0)
 			(effects
 				(font
@@ -6643,11 +5225,11 @@
 		(instances
 			(project "DRIFT_Driver"
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/5e27a041-c435-4fa6-bfdb-7036e75ff5a5"
-					(reference "R34")
+					(reference "R22")
 					(unit 1)
 				)
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/d7cde7c7-5a21-4551-ad0d-5b3678186860"
-					(reference "R21")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -6737,77 +5319,6 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 180.34 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "db6968e8-9862-44d8-8ce2-0a6a4a87a505")
-		(property "Reference" "#PWR072"
-			(at 180.34 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 180.34 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 180.34 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 180.34 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 180.34 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "adebf092-8370-4157-b575-2f9f86f304d4")
-		)
-		(instances
-			(project "DRIFT_Driver"
-				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/5e27a041-c435-4fa6-bfdb-7036e75ff5a5"
-					(reference "#PWR0109")
-					(unit 1)
-				)
-				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/d7cde7c7-5a21-4551-ad0d-5b3678186860"
-					(reference "#PWR072")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_1")
-		(lib_id "power:GND")
 		(at 114.3 68.58 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6816,7 +5327,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db71d345-edfe-45f4-a949-3b96a279237d")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR055"
 			(at 120.65 68.58 0)
 			(effects
 				(font
@@ -6867,11 +5378,11 @@
 		(instances
 			(project "DRIFT_Driver"
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/5e27a041-c435-4fa6-bfdb-7036e75ff5a5"
-					(reference "#PWR099")
+					(reference "#PWR086")
 					(unit 1)
 				)
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/d7cde7c7-5a21-4551-ad0d-5b3678186860"
-					(reference "#PWR062")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -6887,7 +5398,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc9cd378-bb86-4541-bfaf-588833731933")
-		(property "Reference" "R22"
+		(property "Reference" "R16"
 			(at 129.54 48.895 0)
 			(effects
 				(font
@@ -6940,11 +5451,11 @@
 		(instances
 			(project "DRIFT_Driver"
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/5e27a041-c435-4fa6-bfdb-7036e75ff5a5"
-					(reference "R35")
+					(reference "R23")
 					(unit 1)
 				)
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/d7cde7c7-5a21-4551-ad0d-5b3678186860"
-					(reference "R22")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -7208,7 +5719,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eae55a0c-56d2-4e81-9110-3ede99cc6a85")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR050"
 			(at 104.14 25.4 0)
 			(effects
 				(font
@@ -7258,11 +5769,11 @@
 		(instances
 			(project ""
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/5e27a041-c435-4fa6-bfdb-7036e75ff5a5"
-					(reference "#PWR094")
+					(reference "#PWR081")
 					(unit 1)
 				)
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/d7cde7c7-5a21-4551-ad0d-5b3678186860"
-					(reference "#PWR057")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -7279,7 +5790,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f3471e5f-1612-4fce-876e-d9f53f7a6d35")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR061"
 			(at 127 49.53 0)
 			(effects
 				(font
@@ -7329,11 +5840,11 @@
 		(instances
 			(project "DRIFT_Driver"
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/5e27a041-c435-4fa6-bfdb-7036e75ff5a5"
-					(reference "#PWR0105")
+					(reference "#PWR092")
 					(unit 1)
 				)
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/d7cde7c7-5a21-4551-ad0d-5b3678186860"
-					(reference "#PWR068")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -7350,7 +5861,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f7ab2133-8b5a-4591-951d-eb7f6bbfbeb9")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR051"
 			(at 113.03 25.4 0)
 			(effects
 				(font
@@ -7400,11 +5911,11 @@
 		(instances
 			(project "DRIFT_Driver"
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/5e27a041-c435-4fa6-bfdb-7036e75ff5a5"
-					(reference "#PWR095")
+					(reference "#PWR082")
 					(unit 1)
 				)
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/d7cde7c7-5a21-4551-ad0d-5b3678186860"
-					(reference "#PWR058")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -7420,7 +5931,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f9a07016-8270-4b37-a027-7f3a1fa071da")
-		(property "Reference" "U5"
+		(property "Reference" "U4"
 			(at 140.97 129.9211 0)
 			(effects
 				(font
@@ -7485,11 +5996,11 @@
 		(instances
 			(project "DRIFT_Driver"
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/5e27a041-c435-4fa6-bfdb-7036e75ff5a5"
-					(reference "U8")
+					(reference "U7")
 					(unit 1)
 				)
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7/d7cde7c7-5a21-4551-ad0d-5b3678186860"
-					(reference "U5")
+					(reference "U4")
 					(unit 1)
 				)
 			)
