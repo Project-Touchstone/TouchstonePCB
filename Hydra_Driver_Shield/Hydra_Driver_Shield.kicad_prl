@@ -35,15 +35,16 @@
       "grid",
       "footprints_front",
       "footprints_back",
+      "footprint_values",
       "footprint_references",
+      "tracks",
       "drc_errors",
-      "bitmaps",
       "pads",
       "zones",
       "drc_warnings",
       "shapes"
     ],
-    "visible_layers": "ffffffff_ffffffff_ffffffff_ffffffff",
+    "visible_layers": "00000000_00000000_0fffffff_ffffffff",
     "zone_display_mode": 0
   },
   "git": {
@@ -52,7 +53,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "Hydra_Driver_Sheild.kicad_prl",
+    "filename": "Hydra_Driver_Shield.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
@@ -90,7 +91,7 @@
       112,
       83,
       112,
-      473
+      489
     ],
     "custom_group_rules": [],
     "expanded_rows": [],
