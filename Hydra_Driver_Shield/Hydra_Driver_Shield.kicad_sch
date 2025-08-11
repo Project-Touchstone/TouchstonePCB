@@ -11615,7 +11615,7 @@
 			)
 		)
 		(instances
-			(project "Hydra_Driver"
+			(project "Hydra_Driver_Shield"
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7"
 					(page "3")
 				)
@@ -11787,7 +11787,7 @@
 			)
 		)
 		(instances
-			(project "Hydra_Driver"
+			(project "Hydra_Driver_Shield"
 				(path "/c6ac9bb7-6504-498f-96ad-01ea1a04d6e7"
 					(page "2")
 				)
