@@ -8,6 +8,7 @@
 *-backups/
 *.zip
 *fp-info-cache*
+*fp-lib-table*
 
 # Local project settings
 *.kicad_prl
