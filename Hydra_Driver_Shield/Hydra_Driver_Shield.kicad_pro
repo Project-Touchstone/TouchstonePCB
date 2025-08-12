@@ -560,7 +560,7 @@
       "plot": "./fab",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "Hydra_Driver_Shield.step",
       "svg": "",
       "vrml": ""
     },
