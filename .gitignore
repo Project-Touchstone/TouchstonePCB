@@ -9,6 +9,7 @@
 *.zip
 *fp-info-cache*
 *fp-lib-table*
+*.lck
 
 # Local project settings
 *.kicad_prl
